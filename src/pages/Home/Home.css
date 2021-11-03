@@ -1,0 +1,8 @@
+.home {
+  margin: auto;
+  width: 95%;
+  height: 100vh;
+  text-align: center;
+  border: solid 20px #11270b;
+  border-radius: 2rem;
+}
