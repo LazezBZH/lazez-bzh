@@ -1,6 +1,6 @@
 .home {
-  margin: auto;
-  width: 95%;
+  margin: 0.2rem;
+  width: auto;
   height: 100vh;
   text-align: center;
   border: solid 20px #11270b;

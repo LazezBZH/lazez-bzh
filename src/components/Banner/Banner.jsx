@@ -9,7 +9,9 @@ export default function Banner() {
         <p className="name">Bénédicte HÉRAULT</p>
         <p className="job">Développeuse front-end</p>
       </div>
-      <img className="moi" src={moi} alt="" />
+      <div className="moi">
+        <img className="moiImg" src={moi} alt="" />
+      </div>
     </div>
   );
 }
