@@ -5,6 +5,7 @@
   border-radius: 2.5rem;
   margin: auto 3rem;
   padding: 0.3rem;
+  position: relative;
 }
 .dataLink :first-child {
   animation: myAnim2 4s ease-in-out 1s 2 normal forwards;
@@ -26,11 +27,21 @@ a {
 .links {
   width: 90%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 16rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   animation: myAnim1 2s cubic-bezier(0.33, 1, 0.68, 1) 50ms 1 normal;
+}
+
+.txtb {
+  font-size: 1.2rem;
+  font-weight: 900;
+
+  color: #78586f;
+  position: absolute;
+  bottom: 0;
+  left: 2.2rem;
 }
 
 @keyframes myAnim1 {

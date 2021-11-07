@@ -1,0 +1,36 @@
+.products {
+  width: 95%;
+  margin: auto;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  border-radius: 3rem;
+  border: solid #499167 1rem;
+}
+
+.product {
+  margin: auto;
+  width: 25rem;
+}
+.product img {
+  width: 10rem;
+  height: 12rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.imgProduct {
+  margin: 0 0.2rem;
+}
+.imgProducts:hover {
+  border: solid #ce8147 0.5rem;
+  border-radius: 2rem;
+}
+.productDescription {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ce8147;
+  padding: 0 2rem;
+}

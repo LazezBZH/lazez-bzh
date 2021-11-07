@@ -27,6 +27,7 @@ const dataLinks = [
     alt: "icon cv",
     src: "/cv",
     txt: "CV",
+    txtb: "cv",
   },
 ];
 

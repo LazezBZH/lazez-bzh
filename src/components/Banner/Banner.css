@@ -1,7 +1,10 @@
 .banner {
-  width: 100%;
+  width: 97%;
   overflow: hidden;
   position: relative;
+  position: fixed;
+  top: 2vh;
+  z-index: 99;
 }
 
 .bannerImg {

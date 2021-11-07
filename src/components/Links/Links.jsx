@@ -12,6 +12,7 @@ export default function Links() {
           alt={dataLink.alt}
           img={dataLink.img}
           txt={dataLink.txt}
+          txtb={dataLink.txtb}
         />
       ))}
     </div>
