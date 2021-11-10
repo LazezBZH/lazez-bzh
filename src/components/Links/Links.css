@@ -23,11 +23,12 @@
 }
 a {
   text-decoration: none;
+  cursor: url("https://surlapage.fr/widget/cursors/16/1289626.gif"), default;
 }
 .links {
   width: 90%;
   margin: auto;
-  margin-top: 16rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -2,9 +2,9 @@ import dataProducts from "../../data/dataProducts";
 import Product from "../Products/Product";
 import "./Products.css";
 
-export default function Technos() {
+export default function Products() {
   return (
-    <>
+    <div className="allproducts">
       <h1>Travaux</h1>
       <div className="products">
         {dataProducts.map((dataProduct, index) => (
@@ -18,6 +18,6 @@ export default function Technos() {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 }

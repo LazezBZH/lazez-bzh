@@ -1,15 +1,16 @@
 .banner {
-  width: 97%;
+  width: 96%;
   overflow: hidden;
   position: relative;
-  position: fixed;
   top: 2vh;
-  z-index: 99;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .bannerImg {
   width: 95%;
-  height: 11rem;
+  height: 10rem;
   margin-top: 1rem;
   object-fit: cover;
   border-radius: 50rem;
@@ -17,23 +18,23 @@
 }
 
 .moi {
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
 
   overflow: hidden;
 
   position: absolute;
-  top: 2.5rem;
+  top: 2.8rem;
   left: 3rem;
   animation: myAnim2 4s ease 0s 1 normal forwards;
-  border: solid 0.5rem #499167;
+  border: solid 0.3rem #499167;
   border-radius: 6rem;
 }
 .moiImg {
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   object-fit: cover;
-  object-position: 0rem -3rem;
+  object-position: 0rem -2.5rem;
 }
 .bannerTxt {
   position: absolute;

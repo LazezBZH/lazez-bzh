@@ -8,21 +8,39 @@
   margin-top: 1rem;
   border-radius: 3rem;
   border: solid #499167 1rem;
+  background-color: #ce8147;
 }
 
 .product {
-  margin: auto;
+  margin: 0.5rem auto;
   width: 25rem;
+  height: 22rem;
+  padding: 1rem 0;
+  background-color: #f1ecce;
+  border-radius: 1rem;
 }
 .product img {
   width: 10rem;
   height: 12rem;
   object-fit: cover;
   object-position: top;
+  border-radius: 1rem;
+}
+
+.product a {
+  cursor: url("https://surlapage.fr/widget/cursors/4/1281251.gif"), default;
 }
 
 .imgProduct {
-  margin: 0 0.2rem;
+  margin: 0;
+}
+
+.imgProducts {
+  width: 90%;
+  padding: 0.5rem 0.2rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
 .imgProducts:hover {
   border: solid #ce8147 0.5rem;
