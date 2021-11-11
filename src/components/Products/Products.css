@@ -1,3 +1,7 @@
+.allproducts h1 {
+  margin: 2rem auto 0.5rem auto;
+}
+
 .products {
   width: 95%;
   margin: auto;

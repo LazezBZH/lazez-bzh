@@ -1,3 +1,7 @@
+.allparcours h1 {
+  margin: 2rem auto 0.5rem auto;
+}
+
 .parcours {
   display: flex;
   flex-direction: column;
@@ -5,7 +9,7 @@
 }
 .parcour {
   width: 70%;
-  height: 8rem;
+  height: 6rem;
   margin: 0.5rem auto;
   display: flex;
   justify-content: start;
@@ -20,15 +24,17 @@
   width: 40%;
   text-align: left;
   color: #0b2027;
-  padding: 0.5rem;
+  margin-left: 2rem;
 }
 
 .parcoursType {
-  height: 9rem;
+  height: 7rem;
   position: absolute;
   right: -0.1rem;
   top: -0.11rem;
   margin: 0;
+  font-size: 0.8rem;
+  font-weight: 900;
   writing-mode: vertical-rl;
   text-orientation: upright;
   padding: 0.6rem 2rem 0.3rem;
@@ -39,8 +45,8 @@
 
 .parcroursTxt {
   position: absolute;
-  left: 45%;
-  top: 3rem;
+  right: 8rem;
+  top: 1.5rem;
   font-size: 1.2rem;
   font-weight: 500;
   color: #0b2027;

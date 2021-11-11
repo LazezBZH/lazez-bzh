@@ -3,7 +3,6 @@
   height: 90vh;
   text-align: center;
   overflow: hidden;
-
   position: relative;
 }
 .footer::before {
@@ -20,10 +19,28 @@
 }
 .footerLinks {
   padding: 0;
-  /*background-color: #f1ecceb2;*/
   border-radius: 5rem;
   position: absolute;
-  bottom: 10rem;
-  left: 15rem;
+  bottom: 14rem;
+  left: 12rem;
   margin-top: 2rem;
+}
+
+.footerTxt {
+  width: 60%;
+  padding: 0 2rem;
+  display: flex;
+  color: #0b2027;
+  font-size: 2rem;
+  background-color: #499167;
+  border: solid 0.5rem #11270b;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.footerTxt img,
+.footerTxt a {
+  width: 6rem;
+  margin: auto 1rem;
 }

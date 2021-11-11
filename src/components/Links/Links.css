@@ -8,7 +8,7 @@
   position: relative;
 }
 .dataLink :first-child {
-  animation: myAnim2 4s ease-in-out 1s 2 normal forwards;
+  animation: myAnim2 4s ease-in-out 1s 1 normal forwards;
 }
 .links p {
   width: 5rem;
@@ -19,7 +19,7 @@
   font-weight: 900;
   color: #f1ecce;
   background-color: #499167;
-  animation: myAnim3 4s ease-in-out 1s 2 normal forwards;
+  animation: myAnim3 4s ease-in-out 1s 1 normal forwards;
 }
 a {
   text-decoration: none;
