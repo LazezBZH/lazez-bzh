@@ -14,10 +14,11 @@
 .product {
   margin: 0.5rem auto;
   width: 25rem;
-  height: 22rem;
+  height: 23rem;
   padding: 1rem 0;
   background-color: #f1ecce;
   border-radius: 1rem;
+  position: relative;
 }
 .product img {
   width: 10rem;
@@ -51,4 +52,37 @@
   font-weight: 700;
   color: #ce8147;
   padding: 0 2rem;
+}
+
+.lienGit {
+  width: 20%;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+.lienGit img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.lienGit a {
+  cursor: url("https://surlapage.fr/widget/cursors/16/1284150.gif"), default;
+}
+
+.imgTech {
+  width: 100%;
+  position: absolute;
+  right: 0rem;
+  bottom: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+  height: 2.5rem;
+}
+.imgTech img {
+  width: auto;
+  height: 2.5rem;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
 }

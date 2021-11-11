@@ -15,6 +15,10 @@ export default function Products() {
             img1={dataProduct.img1}
             img2={dataProduct.img2}
             txt={dataProduct.txt}
+            git={dataProduct.git}
+            tech1={dataProduct.tech1}
+            tech2={dataProduct.tech2}
+            tech3={dataProduct.tech3}
           />
         ))}
       </div>
