@@ -79,3 +79,31 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .technos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .techno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin: 0.5rem;
+  }
+  .tech {
+    margin: 0.5rem;
+    font-weight: 900;
+    height: 1rem;
+    padding: 0.5rem;
+  }
+
+  .techno {
+    opacity: 1;
+    -webkit-animation: none;
+    animation: none;
+  }
+}

@@ -40,3 +40,13 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .logoReact {
+    display: none;
+  }
+  .logoReact img {
+    width: 25rem;
+    height: 25rem;
+  }
+}

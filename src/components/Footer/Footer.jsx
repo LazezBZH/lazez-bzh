@@ -10,7 +10,8 @@ export default function Footer() {
         <Links />
       </div>
       <div className="footerTxt">
-        <p>Portfolio créé sous React</p> <img src={react} alt="" />
+        <p>Portfolio créé sous React</p>{" "}
+        <img className="invisible" src={react} alt="" />
         <p>et hébergé par</p>
         <a href="https://www.netlify.com/">
           <img src={netlify} alt="" />

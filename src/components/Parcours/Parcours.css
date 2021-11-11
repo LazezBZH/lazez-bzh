@@ -14,7 +14,7 @@
   display: flex;
   justify-content: start;
   position: relative;
-  background-color: red;
+
   border-radius: 0rem 6rem 2rem;
   border: #499167 solid 0.5rem;
   padding: 1rem;
@@ -43,7 +43,7 @@
   border-radius: 0 6rem 2rem 0;
 }
 
-.parcroursTxt {
+.parcoursTxt {
   position: absolute;
   right: 8rem;
   top: 1.5rem;
@@ -51,7 +51,7 @@
   font-weight: 500;
   color: #0b2027;
 }
-.parcroursTxt p {
+.parcoursTxt p {
   margin: 0.3rem;
 }
 
@@ -73,4 +73,175 @@
 }
 .parcour.EMPLOI {
   margin-left: 12rem;
+}
+
+@media screen and (max-width: 780px) {
+  .allparcours h1 {
+    margin: 2rem auto 0.5rem auto;
+  }
+
+  .parcours {
+    display: flex;
+    flex-direction: column;
+    background: url(../../assets/logoReact2.svg) no-repeat center center fixed;
+  }
+  .parcour {
+    width: 85%;
+    height: 12rem;
+    margin: 0.5rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    position: relative;
+
+    border-radius: 0rem 6rem 2rem;
+    border: #499167 solid 0.5rem;
+    padding: 1rem;
+  }
+
+  .parcoursTitle {
+    width: 50%;
+    text-align: left;
+    color: #0b2027;
+    margin-left: 2rem;
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  .parcoursType {
+    width: 30%;
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    top: 8rem;
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 900;
+    line-height: 8rem;
+    writing-mode: horizontal-tb;
+
+    padding: 0;
+    letter-spacing: 0;
+    border: none;
+  }
+
+  .parcoursTxt {
+    width: 100%;
+    position: static;
+
+    font-weight: 500;
+    color: #0b2027;
+  }
+  .parcoursTxt p {
+    margin: 0;
+  }
+
+  .FORMATION {
+    background-color: rgba(120, 88, 111, 0.7);
+  }
+  .STAGE {
+    background-color: rgba(206, 129, 71, 0.7);
+  }
+  .EMPLOI {
+    background-color: rgba(241, 236, 206, 0.7);
+  }
+
+  .parcour.FORMATION {
+    margin-left: 0;
+  }
+  .parcour.STAGE {
+    margin-left: 0;
+  }
+  .parcour.EMPLOI {
+    margin-left: 0;
+  }
+
+  .parcour .parcoursType {
+    background: none;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1250px) {
+  .allparcours h1 {
+    margin: 2rem auto 0.5rem auto;
+  }
+
+  .parcours {
+    display: flex;
+    flex-direction: column;
+    background: url(../../assets/logoReact2.svg) no-repeat center center fixed;
+  }
+  .parcour {
+    width: 75%;
+    height: 8rem;
+    margin: 0.5rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    position: relative;
+
+    border-radius: 0rem 6rem 2rem;
+    border: #499167 solid 0.5rem;
+    padding: 1rem;
+  }
+
+  .parcoursTitle {
+    width: 50%;
+    text-align: left;
+    color: #0b2027;
+    margin-left: 2rem;
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  .parcoursType {
+    width: 10%;
+    height: 8.5rem;
+    position: absolute;
+    right: -0.5rem;
+    top: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 900;
+    line-height: 8rem;
+    writing-mode: horizontal-tb;
+
+    padding: 0.6rem 2rem 0.3rem;
+    letter-spacing: 0;
+    border: #499167 solid 0.3rem;
+    border-radius: 0 6rem 2rem 0;
+  }
+
+  .parcoursTxt {
+    width: 100%;
+    position: static;
+
+    font-weight: 500;
+    color: #0b2027;
+  }
+  .parcoursTxt p {
+    margin: 0rem 0 0 -5rem;
+  }
+
+  .FORMATION {
+    background-color: rgba(120, 88, 111, 0.7);
+  }
+  .STAGE {
+    background-color: rgba(206, 129, 71, 0.7);
+  }
+  .EMPLOI {
+    background-color: rgba(241, 236, 206, 0.7);
+  }
+
+  .parcour.FORMATION {
+    margin-left: 0;
+  }
+  .parcour.STAGE {
+    margin-left: 0;
+  }
+  .parcour.EMPLOI {
+    margin-left: 0;
+  }
 }

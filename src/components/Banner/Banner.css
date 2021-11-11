@@ -134,3 +134,130 @@
     transform: translateY(0px);
   }
 }
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  .banner {
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: 2vh;
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .bannerImg {
+    width: 95%;
+    height: 10rem;
+    margin-top: 1rem;
+    object-fit: cover;
+    border-radius: 50rem;
+    border: solid #499167 1rem;
+  }
+
+  .moi {
+    width: 8rem;
+    height: 8rem;
+
+    overflow: hidden;
+
+    position: absolute;
+    top: 2.8rem;
+    left: 1.5rem;
+    animation: none;
+    border: solid 0.3rem #499167;
+    border-radius: 6rem;
+  }
+  .moiImg {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    object-position: 0rem -2.5rem;
+  }
+  .bannerTxt {
+    position: absolute;
+    top: 3rem;
+    left: 11rem;
+    padding: 1rem;
+    background-color: #499167;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: left;
+    border-radius: 0 3rem 3rem 0;
+  }
+  .bannerTxt p {
+    margin: 0;
+    padding-right: 2rem;
+    color: #0b2027;
+  }
+
+  .bannerTxt {
+    animation: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .banner {
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: 2vh;
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .bannerImg {
+    width: 95%;
+    height: 10rem;
+    margin-top: 1rem;
+    object-fit: cover;
+    border-radius: 50rem;
+    border: solid #499167 1rem;
+  }
+
+  .moi {
+    width: 5rem;
+    height: 5rem;
+
+    overflow: hidden;
+
+    position: absolute;
+    top: 2.8rem;
+    left: 1.5rem;
+    animation: none;
+    border: solid 0.3rem #499167;
+    border-radius: 6rem;
+  }
+  .moiImg {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    object-position: 0rem -1.5rem;
+  }
+  .bannerTxt {
+    width: 13rem;
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+    padding: 1rem;
+    background-color: #499167;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: left;
+    border-radius: 0 3rem 3rem 0;
+  }
+  .bannerTxt p {
+    width: 50%;
+    margin: 0;
+    padding-right: 0rem;
+    padding-left: 3rem;
+    color: #0b2027;
+  }
+
+  .bannerTxt {
+    animation: none;
+  }
+}
