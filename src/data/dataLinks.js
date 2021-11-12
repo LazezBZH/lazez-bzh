@@ -25,7 +25,7 @@ const dataLinks = [
   {
     img: cv,
     alt: "icon cv",
-    src: "/cv",
+    src: "https://lazez-bzh.netlify.app/cv",
     txt: "CV",
     txtb: "cv",
   },
