@@ -240,11 +240,11 @@
   .bannerTxt {
     width: 10rem;
     position: absolute;
-    top: 2.5rem;
-    left: 7rem;
-    padding: 0.2rem;
+    top: 2.8rem;
+    left: 7.1rem;
+    padding: 1rem 0.2rem;
     background-color: #499167;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 900;
     text-align: left;
     border-radius: 0 3rem 3rem 0;
