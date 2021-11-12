@@ -38,6 +38,7 @@
   position: absolute;
   bottom: 1rem;
   right: 1rem;
+  margin-bottom: 2rem;
 }
 .footerTxt img,
 .footerTxt a {
@@ -50,7 +51,7 @@
     display: none;
   }
   .footer {
-    height: 15rem;
+    height: 18rem;
   }
   .footer::before {
     background-image: none;
@@ -59,7 +60,7 @@
     width: 85%;
     height: 15rem;
     padding: 0 1rem;
-    margin: auto;
+    margin: auto auto 2rem auto;
     display: flex;
     flex-wrap: wrap;
     color: #0b2027;

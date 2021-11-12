@@ -81,12 +81,14 @@
   }
 
   .parcours {
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     background: url(../../assets/logoReact2.svg) no-repeat center center fixed;
   }
   .parcour {
-    width: 85%;
+    width: 87%;
     height: 12rem;
     margin: 0.5rem auto;
     display: flex;
@@ -162,11 +164,14 @@
   }
 }
 
-@media screen and (min-width: 780px) and (max-width: 1250px) {
+@media screen and (min-width: 780px) and (max-width: 1230px) {
   .allparcours h1 {
     margin: 2rem auto 0.5rem auto;
   }
-
+  .allparcours {
+    width: 90%;
+    margin: auto;
+  }
   .parcours {
     display: flex;
     flex-direction: column;
