@@ -124,7 +124,7 @@ const dataProducts = [
     img2: marie2,
     alt: "Marie Aballea",
     src: "https://www.marieaballea.fr/",
-    txt: "Site vitrine bilingue (c'est une amie, si vous avez besoin n'hésitez pas, je vous la conseille.",
+    txt: "Site vitrine bilingue (c'est une amie, si vous avez besoin n'hésitez pas, je vous la conseille).",
     tech1: html,
   },
 ];
