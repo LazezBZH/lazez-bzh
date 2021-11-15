@@ -61,7 +61,7 @@ const dataParcours = [
     type: "EMPLOI",
     date: "1992-1998",
     lieu: "Cabinets vétérinaires canins ou mixtes (59-31-09-24)",
-    duration: "plusieurs cdi",
+    duration: "plusieurs cdd",
   },
   {
     title: "Études vétérinaires",
