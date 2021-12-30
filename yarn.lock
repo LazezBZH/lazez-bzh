@@ -4026,6 +4026,11 @@ cssstyle@^2.2.0:
   dependencies:
     cssom "~0.3.6"
 
+customizable-react-modal-by-lazez@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/customizable-react-modal-by-lazez/-/customizable-react-modal-by-lazez-0.3.5.tgz#dcc056f28a56cd2f826a66f9d3f779810efc0864"
+  integrity sha512-oWejZXkpRQTqeCvBTHuKj3CztsIor7BlOSVYPYGj/5hqoQb/iat2kN3B017TEWeZ+fexmsVXtpx53YfSpQL/5g==
+
 cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"

@@ -17,16 +17,21 @@ import kasa1 from "../assets/kasa1.jpg";
 import kasa2 from "../assets/kasa2.jpg";
 import sportsee1 from "../assets/sportsee1.jpg";
 import sportsee2 from "../assets/sportsee2.jpg";
+import hrnet1 from "../assets/hrnet1.png";
+import hrnet2 from "../assets/hrnet2.png";
+import npmmodal1 from "../assets/npmmodal1.png";
+import npmmodal2 from "../assets/npmmodal2.png";
 
 import html from "../assets/html.png";
 import js from "../assets/js.png";
 import react from "../assets/react.png";
-//import redux from "../assets/redux.svg";
+import redux from "../assets/redux.svg";
 import jest from "../assets/jest.png";
 import figma from "../assets/figma.png";
 import notion from "../assets/notion.png";
 import agile from "../assets/agile.png";
 import recharts from "../assets/recharts.png";
+import npm from "../assets/npm.png";
 
 const dataProducts = [
   {
@@ -118,6 +123,28 @@ const dataProducts = [
     tech1: js,
     tech2: react,
     tech3: recharts,
+  },
+  {
+    img1: npmmodal1,
+    img2: npmmodal2,
+    alt: "npm modal",
+    src: "https://www.npmjs.com/package/customizable-react-modal-by-lazez",
+    txt: "Projet 14 de la formation développeur front-end OpenClassrooms: Créer et publier un composant npm.",
+    git: "https://github.com/LazezBZH/customizable-react-modal-lazez",
+    tech1: js,
+    tech2: react,
+    tech3: npm,
+  },
+  {
+    img1: hrnet1,
+    img2: hrnet2,
+    alt: "hnet",
+    src: "https://hrnet-p14-dfe-oc-herault-benedicte.netlify.app/",
+    txt: "Projet 14 de la formation développeur front-end OpenClassrooms: Faire passer une librairie jQuery vers React.",
+    git: "https://github.com/LazezBZH/BenedicteHERAULT_14_23112021",
+    tech1: js,
+    tech2: react,
+    tech3: redux,
   },
   {
     img1: marie1,

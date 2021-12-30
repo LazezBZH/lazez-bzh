@@ -5,7 +5,7 @@ export default function Cv() {
   return (
     <div className="home">
       <Banner />
-      <h1>à venir</h1>
+      à venir
       <Footer />
     </div>
   );
