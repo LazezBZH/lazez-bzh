@@ -5,7 +5,7 @@ export default function Lien({ img, alt, src, txt, txtb }) {
         <img className={alt} src={img} alt={alt} />
         <span className="txtb">{txtb}</span>
       </div>
-      <p>{txt}</p>
+      <p className="textLink">{txt}</p>
     </a>
   );
 }

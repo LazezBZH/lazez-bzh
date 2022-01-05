@@ -17,6 +17,8 @@ import kasa1 from "../assets/kasa1.jpg";
 import kasa2 from "../assets/kasa2.jpg";
 import sportsee1 from "../assets/sportsee1.jpg";
 import sportsee2 from "../assets/sportsee2.jpg";
+import argentbank1 from "../assets/argentbank1.png";
+import argentbank2 from "../assets/argentbank2.png";
 import hrnet1 from "../assets/hrnet1.png";
 import hrnet2 from "../assets/hrnet2.png";
 import npmmodal1 from "../assets/npmmodal1.png";
@@ -125,6 +127,17 @@ const dataProducts = [
     tech3: recharts,
   },
   {
+    img1: argentbank1,
+    img2: argentbank2,
+    alt: "hnet",
+    src: "https://github.com/LazezBZH/BenedicteHERAULT_13_20102021/blob/main/README.md",
+    txt: "Projet 13 de la formation développeur front-end OpenClassrooms: Utiliser une API pour un compte utilisateur bancaire avec React.",
+    git: "https://github.com/LazezBZH/BenedicteHERAULT_13_20102021",
+    tech1: js,
+    tech2: react,
+    tech3: redux,
+  },
+  {
     img1: npmmodal1,
     img2: npmmodal2,
     alt: "npm modal",
@@ -152,6 +165,7 @@ const dataProducts = [
     alt: "Marie Aballea",
     src: "https://www.marieaballea.fr/",
     txt: "Site vitrine bilingue (c'est une amie, si vous avez besoin n'hésitez pas, je vous la conseille).",
+    git: "https://github.com/LazezBZH/Site-Marie",
     tech1: html,
   },
 ];
