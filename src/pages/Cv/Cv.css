@@ -1,0 +1,46 @@
+.cv {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.cvBanner {
+  padding-bottom: 20rem;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+.image-zoom img {
+  width: 40%;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+  z-index: 99;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  margin: auto;
+}
+
+input[type="checkbox"]:checked ~ label > img {
+  transform: scale(3) translateY(8rem) translateX(2rem);
+  cursor: zoom-out;
+}
+.image-zoom {
+  position: absolute;
+  top: 15rem;
+  margin: auto;
+}
+.download {
+  position: fixed;
+  bottom: 1%;
+  right: 5%;
+  padding: 1rem;
+  border: solid 5px rgb(73, 145, 103);
+  border-radius: 1rem;
+  background-color: rgba(73, 145, 103, 0.3);
+}
+.download a {
+  color: rgb(73, 145, 103);
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: url("https://surlapage.fr/widget/cursors/16/1281092.gif"), default;
+}
