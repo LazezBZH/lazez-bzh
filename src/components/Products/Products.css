@@ -18,7 +18,7 @@
 .product {
   margin: 0.5rem auto;
   width: 25rem;
-  height: 23rem;
+  height: 25rem;
   padding: 1rem 0;
   background-color: #f1ecce;
   border-radius: 1rem;
@@ -52,10 +52,24 @@
   border-radius: 2rem;
 }
 .productDescription {
-  font-size: 1.2rem;
   font-weight: 700;
   color: #ce8147;
   padding: 0 2rem;
+}
+.productDescription-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.productDescription-project {
+  font-size: 0.75rem;
+}
+.productDescription-desc {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-align: justify;
+  width: 75%;
+  margin: auto;
 }
 
 .lienGit {
@@ -132,5 +146,10 @@
     max-width: 5rem;
     height: 1.4rem;
     object-fit: cover;
+  }
+}
+@media screen and (max-width: 430px) {
+  .product {
+    height: 29rem;
   }
 }

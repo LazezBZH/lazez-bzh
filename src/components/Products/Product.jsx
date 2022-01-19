@@ -5,7 +5,9 @@ export default function Product({
   img2,
   alt,
   src,
-  txt,
+  title,
+  project,
+  description,
   git,
   tech1,
   tech2,
@@ -19,7 +21,11 @@ export default function Product({
           <img className="imgProduct" src={img2} alt={alt} />
         </div>
       </a>
-      <p className="productDescription">{txt}</p>
+      <p className="productDescription productDescription-title ">{title}</p>
+      <p className="productDescription productDescription-project">{project}</p>
+      <p className="productDescription productDescription-desc">
+        {description}
+      </p>
       <div className="imgTech">
         <img src={tech1} alt="" />
         <img src={tech2} alt="" />

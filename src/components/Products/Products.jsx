@@ -14,7 +14,9 @@ export default function Products() {
             alt={dataProduct.alt}
             img1={dataProduct.img1}
             img2={dataProduct.img2}
-            txt={dataProduct.txt}
+            title={dataProduct.title}
+            project={dataProduct.project}
+            description={dataProduct.description}
             git={dataProduct.git}
             tech1={dataProduct.tech1}
             tech2={dataProduct.tech2}
