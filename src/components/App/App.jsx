@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../../pages/Home/Home";
 import Cv from "../../pages/Cv/Cv";
-
 import "./App.css";
 
 //const Home = lazy(() => import("../../pages/Home/Home"));
