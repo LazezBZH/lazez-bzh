@@ -142,7 +142,7 @@ const dataProducts = [
     title: "Dashboard pour une application de coaching sportif.",
     project: "Projet 12 de la formation développeur front-end OpenClassrooms",
     description:
-      "Récupération des données utilsateurs et affichages de celles-ci dans des schémas de synthèse",
+      "Récupération des données utilsateurs et affichage de celles-ci dans des schémas de synthèse",
     git: "https://github.com/LazezBZH/BenedicteHERAULT_12_27092021",
     tech1: js,
     tech2: react,
@@ -156,7 +156,7 @@ const dataProducts = [
     title: "Utiliser une API pour un compte utilisateur bancaire avec React.",
     project: "Projet 13 de la formation développeur front-end OpenClassrooms",
     description:
-      "Récupération des données externes et affichages de celles-ci dans l'application",
+      "Récupération des données externes et affichage de celles-ci dans l'application",
     git: "https://github.com/LazezBZH/BenedicteHERAULT_13_20102021",
     tech1: js,
     tech2: react,
