@@ -44,3 +44,21 @@ input[type="checkbox"]:checked ~ label > img {
   text-decoration: none;
   cursor: url("https://surlapage.fr/widget/cursors/16/1281092.gif"), default;
 }
+
+@media screen and (max-width: 370px) {
+  .image-zoom {
+    position: absolute;
+    top: 20rem;
+    margin: auto;
+  }
+  input[type="checkbox"]:checked ~ label > img {
+    transform: scale(3) translateY(3rem) translateX(1rem);
+    cursor: zoom-out;
+  }
+}
+@media screen and (max-width: 700px) {
+  input[type="checkbox"]:checked ~ label > img {
+    transform: scale(3) translateY(3.5rem) translateX(1rem);
+    cursor: zoom-out;
+  }
+}
