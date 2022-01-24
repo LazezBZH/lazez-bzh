@@ -153,3 +153,23 @@
     height: 29rem;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .imgProducts {
+    width: 10rem;
+  }
+  .imgProducts img {
+    width: 7.5rem;
+  }
+  .imgTech {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 1.4rem;
+  }
+  .imgTech img {
+    width: auto;
+    height: 2rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem 0.1rem;
+  }
+}

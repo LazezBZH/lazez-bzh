@@ -250,3 +250,22 @@
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .parcour {
+    width: 86%;
+  }
+  .parcoursType {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+  }
+  .parcoursTitle {
+    width: 100%;
+    text-align: left;
+    color: #0b2027;
+    margin-left: -0.3rem;
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+}

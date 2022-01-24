@@ -271,3 +271,39 @@
     animation: none;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .bannerImg {
+    width: 85%;
+    height: 14rem;
+  }
+
+  .moi {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    animation: none;
+    border: solid 0.3rem #499167;
+    border-radius: 6rem;
+  }
+
+  .bannerTxt {
+    width: 13rem;
+    position: absolute;
+    top: 8rem;
+    left: 1.5rem;
+    padding: 0.5rem 0.1rem;
+    background-color: #499167;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: left;
+    border-radius: 0 3rem 3rem 0;
+  }
+  .bannerTxt p {
+    width: 100%;
+    margin: 0;
+    padding-right: 0rem;
+    padding-left: 0.5rem;
+    color: #0b2027;
+  }
+}
