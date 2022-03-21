@@ -17,7 +17,7 @@ export default function Cv() {
       </div>
       <button className="download">
         <a
-          href="https://drive.google.com/file/d/1WDowQhfc18xcAAIo-rB9dz7GSGdWg_f9/view?usp=sharing"
+          href="https://drive.google.com/file/d/1mXiWgtruxoyUiklIptsqh0omSrXsYv2V/view?usp=sharing"
           download="CV Bénédicte HÉRAULT développeuse fonrt-end.pdf"
         >
           Téléchargez mon CV en PDF

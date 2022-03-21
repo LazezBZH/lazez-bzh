@@ -19,7 +19,7 @@ const dataLinks = [
   {
     img: linkedin,
     alt: "icon linkedin",
-    src: "https://www.linkedin.com/in/b%C3%A9n%C3%A9dicte-h-5003b1163/",
+    src: "https://www.linkedin.com/in/benedicte-herault/",
     txt: "Linkendin",
   },
   {
