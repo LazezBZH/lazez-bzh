@@ -1,5 +1,8 @@
 h1 {
   font-size: 2.5rem;
   font-weight: 900;
-  color: #499167;
+  color: #0b4e5c;
+}
+button {
+  cursor: pointer;
 }

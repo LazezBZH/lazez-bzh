@@ -2,7 +2,7 @@
   width: auto;
   height: auto;
   text-align: center;
-  border: solid 20px #11270b;
+  border: solid 20px #0b4e5c;
   border-radius: 2rem;
 }
 .scroll {
@@ -22,6 +22,49 @@
 .logoReact img {
   width: 25rem;
   height: 25rem;
+}
+.homeBtn1 {
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+.homeBtn2 {
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  font-size: 1.5rem;
+  padding: 0, 2rem;
+}
+.homeBtn1 a,
+.homeBtn2 a {
+  cursor: pointer;
+}
+.travaux {
+  background-color: rgba(200, 246, 245, 0.3);
+}
+.ancres {
+  display: flex;
+  justify-content: space-around;
+
+  font-size: 0.8rem;
+}
+.ancres a {
+  color: rgb(3, 3, 180);
+  background-color: rgb(255, 191, 0);
+  padding: 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.ancres p {
+  margin-left: 5%;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.ancre {
+  margin-top: 1.8rem;
 }
 
 @-moz-keyframes spin {
@@ -49,4 +92,9 @@
     width: 25rem;
     height: 25rem;
   }
+}
+#up {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: red;
 }

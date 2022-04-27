@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../../pages/Home/Home";
 import Cv from "../../pages/Cv/Cv";
+import Qui from "../../pages/Qui/Qui";
 import "./App.css";
 
 //const Home = lazy(() => import("../../pages/Home/Home"));
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/cv" component={Cv} />
+          <Route path="/qui" component={Qui} />
         </Switch>
       </Router>
     </React.StrictMode>

@@ -15,7 +15,7 @@
   margin-top: 1rem;
   object-fit: cover;
   border-radius: 50rem;
-  border: solid #499167 1rem;
+  border: solid #1e8398 1rem;
   animation: bgAnim 2s linear 5;
 }
 
@@ -29,14 +29,13 @@
   top: 2.8rem;
   left: 3rem;
   animation: myAnim2 4s ease 0s 1 normal forwards;
-  border: solid 0.3rem #499167;
+  border: solid 0.3rem #1e8398;
   border-radius: 6rem;
 }
 .moiImg {
   width: 8rem;
   height: 8rem;
   object-fit: cover;
-  object-position: 0rem -2.5rem;
 }
 .bannerTxt {
   position: absolute;
@@ -44,7 +43,7 @@
   left: 25rem;
   opacity: 1;
   padding: 1rem;
-  background-color: #499167;
+  background-color: #1e8498de;
   font-size: 2rem;
   font-weight: 900;
   text-align: left;
@@ -58,22 +57,22 @@
 }
 @keyframes bgAnim {
   10% {
-    border: solid rgb(120, 88, 111) 1rem;
+    border: solid rgb(202, 136, 88) 1rem;
   }
   20% {
-    border: solid #499167 1rem;
+    border: solid #1e8398 1rem;
   }
   50% {
-    border: solid rgb(120, 88, 111) 1rem;
+    border: solid rgb(202, 136, 88) 1rem;
   }
   80% {
-    border: solid #499167 1rem;
+    border: solid #1e8398 1rem;
   }
   90% {
-    border: solid rgb(120, 88, 111) 1rem;
+    border: solid rgb(202, 136, 88) 1rem;
   }
   100% {
-    border: solid #499167 1rem;
+    border: solid #1e8398 1rem;
   }
 }
 @keyframes clignote {
@@ -88,11 +87,11 @@
   }
   80% {
     opacity: 0.9;
-    color: rgb(120, 88, 111);
+    color: rgb(218, 104, 22);
   }
   90% {
     opacity: 1;
-    color: rgb(120, 88, 111);
+    color: rgb(218, 104, 22);
   }
   100% {
     opacity: 1;

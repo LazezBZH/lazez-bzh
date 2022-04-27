@@ -11,14 +11,14 @@
   font-weight: 900;
   height: 1rem;
   padding: 0.5rem;
-  background-color: #11270b;
-  border: solid 0.3rem #499167;
+  background-color: #1e84986e;
+  border: solid 0.3rem #1e8398;
   border-radius: 1rem;
-  color: #f1ecce;
+  color: rgb(218, 104, 22);
 }
 
 .tech:hover {
-  background-color: #78586f;
+  background-color: #d2b97e92;
 }
 
 .techno :nth-child(1) {

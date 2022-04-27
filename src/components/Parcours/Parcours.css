@@ -1,7 +1,26 @@
 .allparcours h1 {
-  margin: 2rem auto 0.5rem auto;
+  margin: 1rem auto 0.5rem auto;
+  background-color: rgba(200, 246, 245, 0.3);
+  padding: 2rem;
 }
 
+.allparcours {
+  margin-top: 2rem;
+  height: 39rem;
+  position: relative;
+}
+.ref {
+  color: rgba(255, 0, 0, 0);
+}
+.btn {
+  text-align: right;
+  width: 95%;
+}
+button {
+  background-color: #377d8bc8;
+  padding: 0.5rem 0.3rem;
+  border-radius: 10%;
+}
 .parcours {
   display: flex;
   flex-direction: column;
@@ -16,8 +35,8 @@
   position: relative;
 
   border-radius: 0rem 6rem 2rem;
-  border: #499167 solid 0.5rem;
-  padding: 1rem;
+  border: #1e8398 solid 0.5rem;
+  padding: 1.5rem;
 }
 
 .parcoursTitle {
@@ -28,10 +47,10 @@
 }
 
 .parcoursType {
-  height: 7rem;
+  height: 8rem;
   position: absolute;
-  right: -0.1rem;
-  top: -0.11rem;
+  right: -0.2rem;
+  top: -0.2rem;
   margin: 0;
   font-size: 0.8rem;
   font-weight: 900;
@@ -39,7 +58,7 @@
   text-orientation: upright;
   padding: 0.6rem 2rem 0.3rem;
   letter-spacing: -0.2rem;
-  border: #499167 solid 0.3rem;
+  border: #1e8398 solid 0.3rem;
   border-radius: 0 6rem 2rem 0;
 }
 
@@ -56,13 +75,13 @@
 }
 
 .FORMATION {
-  background-color: rgba(120, 88, 111, 0.7);
+  background-color: #377d8bc8;
 }
 .STAGE {
-  background-color: rgba(206, 129, 71, 0.7);
+  background-color: #f0a31ea2;
 }
 .EMPLOI {
-  background-color: rgba(241, 236, 206, 0.7);
+  background-color: rgba(185, 199, 214, 0.7);
 }
 
 .parcour.FORMATION {
@@ -98,7 +117,7 @@
     position: relative;
 
     border-radius: 0rem 6rem 2rem;
-    border: #499167 solid 0.5rem;
+
     padding: 1rem;
   }
 
@@ -137,16 +156,6 @@
   }
   .parcoursTxt p {
     margin: 0;
-  }
-
-  .FORMATION {
-    background-color: rgba(120, 88, 111, 0.7);
-  }
-  .STAGE {
-    background-color: rgba(206, 129, 71, 0.7);
-  }
-  .EMPLOI {
-    background-color: rgba(241, 236, 206, 0.7);
   }
 
   .parcour.FORMATION {
@@ -188,7 +197,7 @@
     position: relative;
 
     border-radius: 0rem 6rem 2rem;
-    border: #499167 solid 0.5rem;
+
     padding: 1rem;
   }
 
@@ -228,16 +237,6 @@
   }
   .parcoursTxt p {
     margin: 0rem 0 0 -5rem;
-  }
-
-  .FORMATION {
-    background-color: rgba(120, 88, 111, 0.7);
-  }
-  .STAGE {
-    background-color: rgba(206, 129, 71, 0.7);
-  }
-  .EMPLOI {
-    background-color: rgba(241, 236, 206, 0.7);
   }
 
   .parcour.FORMATION {

@@ -1,0 +1,16 @@
+.wait {
+  width: 100%;
+  margin: 20%;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: red;
+}
+.back {
+  width: 10rem;
+  padding: 1rem;
+  margin: 10% 30%;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: pink;
+  border-radius: 15%;
+}

@@ -1,5 +1,5 @@
 import banner from "../../assets/web.jpg";
-import moi from "../../assets/moi.jpg";
+import moi from "../../assets/moi2.jpg";
 import "./Banner.css";
 export default function Banner() {
   return (

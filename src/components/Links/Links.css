@@ -1,7 +1,7 @@
 .dataLink {
   width: 5rem;
   height: 5rem;
-  border: solid 0.8rem #499167;
+  border: solid 0.8rem rgb(218, 104, 22);
   border-radius: 2.5rem;
   margin: auto 3rem;
   padding: 0.3rem;
@@ -18,7 +18,7 @@
   font-size: 0.9rem;
   font-weight: 900;
   color: #f1ecce;
-  background-color: #499167;
+  background-color: #1e8398;
   animation: myAnim3 4s ease-in-out 1s 1 normal forwards;
 }
 a {

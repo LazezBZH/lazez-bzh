@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner/Banner";
 //import Footer from "../../components/Footer/Footer";
-import cvjanv from "../../assets/cv janv 22.png";
+import cvjanv from "../../assets/cv.png";
 import "./Cv.css";
 
 export default function Cv() {
@@ -17,8 +17,8 @@ export default function Cv() {
       </div>
       <button className="download">
         <a
-          href="https://drive.google.com/file/d/1mXiWgtruxoyUiklIptsqh0omSrXsYv2V/view?usp=sharing"
-          download="CV Bénédicte HÉRAULT développeuse fonrt-end.pdf"
+          target="blank"
+          href="https://drive.google.com/file/d/1uriO8ogWo7sQfrheJk-guhOqYHSjh-eU/view?usp=sharing"
         >
           Téléchargez mon CV en PDF
         </a>

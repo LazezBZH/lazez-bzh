@@ -11,7 +11,7 @@ input[type="checkbox"] {
 }
 
 .image-zoom img {
-  width: 40%;
+  width: 30%;
   transition: transform 0.25s ease;
   cursor: zoom-in;
   z-index: 99;
@@ -21,13 +21,13 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked ~ label > img {
-  transform: scale(3) translateY(8rem) translateX(2rem);
+  transform: scale(3) translateY(14rem);
   cursor: zoom-out;
 }
 .image-zoom {
   position: absolute;
   top: 15rem;
-  margin: auto;
+  margin-left: -5rem;
 }
 .download {
   position: fixed;
@@ -48,17 +48,16 @@ input[type="checkbox"]:checked ~ label > img {
 @media screen and (max-width: 370px) {
   .image-zoom {
     position: absolute;
-    top: 20rem;
-    margin: auto;
+    top: 18rem;
   }
   input[type="checkbox"]:checked ~ label > img {
-    transform: scale(3) translateY(3rem) translateX(1rem);
+    transform: scale(1.9) translateY(5rem);
     cursor: zoom-out;
   }
 }
 @media screen and (max-width: 700px) {
   input[type="checkbox"]:checked ~ label > img {
-    transform: scale(3) translateY(3.5rem) translateX(1rem);
+    transform: scale(2) translateY(8rem);
     cursor: zoom-out;
   }
 }

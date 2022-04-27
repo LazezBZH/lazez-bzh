@@ -2,6 +2,7 @@ import mail from "../assets/mail.svg";
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import cv from "../assets/cv.svg";
+import qui from "../assets/qui.svg";
 
 const dataLinks = [
   {
@@ -28,6 +29,12 @@ const dataLinks = [
     src: "https://lazez-bzh.netlify.app/cv",
     txt: "CV",
     txtb: "cv",
+  },
+  {
+    img: qui,
+    alt: "icon qui",
+    src: "https://lazez-bzh.netlify.app/qui",
+    txt: "pour en savoir plus",
   },
 ];
 
