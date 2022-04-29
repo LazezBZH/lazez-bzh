@@ -49,7 +49,7 @@ li {
   font-size: 1.5rem;
   text-decoration: underline;
 }
-.imgSlide1 {
+.imgSlide1R {
   width: 15rem;
   position: absolute;
   bottom: 2rem;
@@ -149,11 +149,15 @@ td {
 .reactP13Img {
   max-height: 20rem;
 }
-.imgP13 {
+.imgP13,
+.imgP13k {
   width: 70%;
   display: flex;
 }
-.imgP12 {
+.imgP13 img {
+  max-height: 15rem;
+}
+.imgP12k {
   width: 70%;
   max-height: 70%;
   display: flex;
@@ -161,4 +165,110 @@ td {
 }
 .reactP12Img {
   max-height: 8rem;
+}
+
+@media screen and (min-width: 781px) and (max-width: 1100px) {
+  .swipeTitleReact,
+  .reactsP {
+    height: 45rem;
+  }
+  .imgP12k img {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 621px) and (max-width: 780px) {
+  .swipeTitleReact,
+  .reactsP {
+    height: 50rem;
+  }
+  .imgSlide1R {
+    width: 15rem;
+  }
+  .imgP13,
+  .imgP13k {
+    width: 70%;
+    display: block;
+  }
+  .imgP13 img {
+    max-height: 11.5rem;
+  }
+  .imgP13k img {
+    max-height: 17rem;
+  }
+  .imgP12k img {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 761px) {
+  .imgP13k img {
+    max-width: 32%;
+  }
+}
+
+@media screen and (min-width: 461px) and (max-width: 620px) {
+  .swipeTitleReact,
+  .reactsP {
+    height: 50rem;
+  }
+  .imgSlide1R {
+    width: 15rem;
+    transform: translateX(7rem);
+  }
+  .imgP13 :first-child,
+  .imgP13k :first-child {
+    display: none;
+  }
+  .imgP12k img {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 460px) {
+  .imgSlide1R {
+    width: 10rem;
+    transform: translateX(7rem);
+  }
+  .swipeTitleReact,
+  .reactsP {
+    height: 55rem;
+  }
+  #h2small {
+    font-size: 1.15rem;
+  }
+  .imgP13 img,
+  .imgP13k img {
+    max-height: 14rem;
+  }
+  .imgP13 :first-child,
+  .imgP13k :first-child {
+    display: none;
+  }
+  .imgP12k img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .imgSlide1R {
+    width: 10rem;
+    transform: translateX(7rem);
+  }
+  .swipeTitleReact,
+  .reactsP {
+    height: 60rem;
+  }
+  #h2small {
+    font-size: 1.1rem;
+  }
+  .imgP13 :first-child,
+  .imgP13k :first-child {
+    display: none;
+  }
+  .imgP13 img,
+  .imgP13k img {
+    max-height: 14rem;
+  }
+  .imgP12k img {
+    width: 70%;
+  }
 }

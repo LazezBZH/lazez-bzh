@@ -42,7 +42,7 @@ export default function ReactP() {
             <h1>Autres projets React</h1>
             <div className="allReacts">
               <div className="allReact">
-                <h2>
+                <h2 id="h2small">
                   Projet 13 de la formation développeur front-end OpenClassrooms
                 </h2>
                 <h3>ArgentBank</h3>
@@ -55,7 +55,7 @@ export default function ReactP() {
                 </ul>
               </div>
               <div className="allReact">
-                <h2>
+                <h2 id="h2small">
                   Projet 12 de la formation développeur front-end OpenClassrooms
                 </h2>
                 <h3>SportSee</h3>
@@ -65,8 +65,8 @@ export default function ReactP() {
                 </ul>
               </div>
               <div className="allReact">
-                <h2>
-                  Projet 13 de la formation développeur front-end OpenClassrooms
+                <h2 id="h2small">
+                  Projet 11 de la formation développeur front-end OpenClassrooms
                 </h2>
                 <h3>Kasa</h3>
                 <ul>
@@ -78,7 +78,7 @@ export default function ReactP() {
               </div>
             </div>
 
-            <img className="imgSlide1" src={logo} alt="" />
+            <img className="imgSlide1R" src={logo} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -133,7 +133,7 @@ export default function ReactP() {
             <div className="reactsP13">
               <p>Première utilisation de React, découverte du framework</p>
             </div>
-            <div className="imgP13">
+            <div className="imgP13k">
               <img className="reactP13Img" src={kasa1} alt="" />
               <img className="reactP13Img" src={kasa2} alt="" />
             </div>
@@ -141,7 +141,7 @@ export default function ReactP() {
         </SwiperSlide>
         <SwiperSlide>
           <div className=" reactsP">
-            <div className="imgP12">
+            <div className="imgP12k">
               <img className="reactP12Img" src={js} alt="" />
               <img className="reactP12Img" src={logo} alt="" />
               <img className="reactP12Img" src={redux} alt="" />

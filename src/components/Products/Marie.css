@@ -26,7 +26,7 @@
   font-weight: bold;
   color: #0b4e5c;
 }
-.swipeTitleMarie {
+.diapo41 {
   width: 100%;
   height: 37rem;
   position: relative;
@@ -37,39 +37,51 @@ li {
   font-size: 1.2rem;
   margin: 0.8rem 2rem;
 }
-.swipeTitleMarie h1 {
+.diapo41 h1 {
   font-size: 2.5rem;
   margin-top: 0;
   color: rgb(102, 67, 2);
 }
-.swipeTitleMarie h2 {
+.diapo41 h2 {
   font-size: 1.5rem;
 }
-.swipeTitleMarie h3 {
+.diapo41 h3 {
   font-size: 1.5rem;
   text-decoration: underline;
 }
 
-.marieP {
+.diapo42,
+.diapo43,
+.diapo44,
+.diapo45 {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   height: 37rem;
   background-color: rgb(255, 200, 98);
 }
-.marieP h2 {
+.diapo42 h2,
+.diapo43 h2,
+.diapo44 h2,
+.diapo45 h2 {
   padding-bottom: 2rem;
 }
-.marieP img {
-  max-width: 30rem;
+.diapo42 img {
+  max-width: 12rem;
   padding: 2rem;
   object-fit: contain;
-}
-
-.marieP img {
   margin: 2rem auto auto auto;
-  max-width: 60rem;
+}
+.diapo44 img,
+.diapo43 img {
+  max-width: 25rem;
+  padding: 2rem;
+  object-fit: contain;
+  margin: 2rem auto auto auto;
+}
+.diapo45 img {
+  max-width: 25rem;
+  padding: 2rem;
+  object-fit: contain;
+  margin: 8rem auto auto auto;
 }
 .git a {
   cursor: url("https://surlapage.fr/widget/cursors/4/1281251.gif"), default;
@@ -113,55 +125,45 @@ td {
   margin-left: 47%;
   margin-top: 0;
 }
-.allMaries {
+.diapo41-all {
   display: flex;
   flex-wrap: wrap;
 }
-.allMarie {
+.dia41 {
   width: 50%;
 }
-.allMarie h4 {
+.dia41 h4 {
   transform: rotate(-45deg);
   font-size: 1.3rem;
   color: #05cdff;
 }
-.marieP h4 {
+.diapo42 h4,
+.diapo43 h4,
+.diapo44 h4,
+.diapo45 h4 {
   font-size: 1.3rem;
   color: #1d89c3;
 }
-.marieP13 {
-  width: 40%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-.marieP13 p {
-  margin-top: 5rem;
-  margin-bottom: -3.5rem;
-}
-.marieP13Img {
-  max-height: 20rem;
-}
-.imgP13 {
+
+.imgM2 {
   width: 90%;
   display: flex;
-  margin-top: 2rem;
   flex-wrap: wrap;
 }
-.imgP14 {
+.imgM3 {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgM4,
+.imgM5 {
   width: 90%;
   display: flex;
   margin-top: -5rem;
   flex-wrap: wrap;
 }
-.imgP12 {
-  width: 90%;
-  display: flex;
-  margin-top: -5rem;
-  flex-wrap: wrap;
-}
-.imgP12 .marieP12Img {
+.marieP2Img,
+.marieP3Img {
   max-width: 40%;
 }
 h5 {
@@ -182,4 +184,162 @@ h5 {
   object-fit: cover;
   margin: 4rem 3rem;
   z-index: 0;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .localisation {
+    width: 50%;
+    bottom: 3rem;
+  }
+  .imgSlideM {
+    width: 6rem;
+    height: 5rem;
+  }
+  .marieP4Img {
+    max-height: 10rem;
+  }
+  .imgM5 :last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .marieP2Img,
+  .marieP3Img {
+    max-height: 12rem;
+  }
+  .imgM4 {
+    margin-top: 2rem;
+  }
+  .imgM5 :last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .imgSlideM {
+    display: none;
+  }
+  .marieP4Img {
+    max-height: 9rem;
+  }
+}
+@media screen and (max-width: 965px) {
+  .marieP2Img,
+  .marieP3Img {
+    max-height: 11rem;
+  }
+  .imgM3,
+  .imgM2,
+  .imgM4 {
+    margin-top: 5rem;
+    margin-left: 2rem;
+  }
+  .imgM4 {
+    height: 100%;
+  }
+  .marieP4Img {
+    height: 15rem;
+  }
+  .imgM4 :last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 690px) {
+  .diapo41,
+  .diapo42,
+  .diapo43,
+  .diapo44,
+  .diapo45 {
+    height: 45rem;
+  }
+  .marieP3Img {
+    max-height: 10rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .diapo41,
+  .diapo42,
+  .diapo43,
+  .diapo44,
+  .diapo45 {
+    height: 50rem;
+  }
+  .marieP5Img {
+    max-height: 8rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .diapo41 h3,
+  .diapo42 h3,
+  .diapo43 h3,
+  .diapo44 h3,
+  .diapo45 h3 {
+    font-size: 1.2rem;
+  }
+  .diapo41 li,
+  .diapo42 li,
+  .diapo43 li,
+  .diapo44 li,
+  .diapo45 li {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .diapo41 h3,
+  .diapo42 h3,
+  .diapo43 h3,
+  .diapo44 h3,
+  .diapo45 h3 {
+    font-size: 1rem;
+  }
+  .diapo41 h2,
+  .diapo42 h2,
+  .diapo43 h2,
+  .diapo44 h2,
+  .diapo45 h2 {
+    font-size: 1.2rem;
+  }
+  .diapo41 li,
+  .diapo42 li,
+  .diapo43 li,
+  .diapo44 li,
+  .diapo45 li {
+    margin: 0.5rem;
+  }
+  .marieP5Img {
+    max-height: 6rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .diapo41 li,
+  .diapo42 li,
+  .diapo43 li,
+  .diapo44 li,
+  .diapo45 li {
+    font-size: 1.1rem;
+    margin: 0.5rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .diapo41 h3,
+  .diapo42 h3,
+  .diapo43 h3,
+  .diapo44 h3,
+  .diapo45 h3 {
+    font-size: 1rem;
+  }
+  .diapo41 h2,
+  .diapo42 h2,
+  .diapo43 h2,
+  .diapo44 h2,
+  .diapo45 h2 {
+    font-size: 1.1rem;
+  }
+  .diapo41 li,
+  .diapo42 li,
+  .diapo43 li,
+  .diapo44 li,
+  .diapo45 li {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
 }

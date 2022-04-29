@@ -29,6 +29,7 @@
   left: 5%;
   font-size: 1.5rem;
   padding: 0.2rem;
+  z-index: 99;
 }
 .homeBtn2 {
   position: fixed;
@@ -36,6 +37,7 @@
   right: 5%;
   font-size: 1.5rem;
   padding: 0, 2rem;
+  z-index: 99;
 }
 .homeBtn1 a,
 .homeBtn2 a {
@@ -84,6 +86,16 @@
   }
 }
 
+#up {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: red;
+}
+.ancres,
+ancre {
+  display: flex;
+  flex-wrap: wrap;
+}
 @media screen and (max-width: 1000px) {
   .logoReact {
     display: none;
@@ -93,8 +105,9 @@
     height: 25rem;
   }
 }
-#up {
-  font-size: 2rem;
-  font-weight: bolder;
-  color: red;
+
+@media screen and (max-width: 780px) {
+}
+
+@media screen and (max-width: 370px) {
 }

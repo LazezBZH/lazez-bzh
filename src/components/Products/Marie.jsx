@@ -36,10 +36,10 @@ export default function Marie() {
         className="mySwiperM"
       >
         <SwiperSlide>
-          <div className="swipeTitleMarie">
+          <div className="diapo41">
             <h1>Site vitrine pour une sophrologue</h1>
-            <div className="allMaries">
-              <div className="allMarie">
+            <div className="diapo41-all">
+              <div className="dia41">
                 <h2>SITE VITRINE BILINGUE.</h2>
                 <h3>Version 1 (en ligne)</h3>
                 <ul>
@@ -51,7 +51,7 @@ export default function Marie() {
                   <li>HTML/CSS</li>
                 </ul>
               </div>
-              <div className="allMarie">
+              <div className="dia41">
                 <h3>Version 2 (en cours de développement)</h3>
                 <ul>
                   <li>React</li>
@@ -61,7 +61,7 @@ export default function Marie() {
                   </li>
                 </ul>
               </div>
-              <div className="allMarie">
+              <div className="dia41">
                 <h3>Évolution à plus ou moins long terme</h3>
                 <ul>
                   <li>Mise en place d'un blog</li>
@@ -84,42 +84,42 @@ export default function Marie() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="marieP">
+          <div className="diapo42">
             <h4>Version 1</h4>
-            <div className="imgP13">
-              <img className="marieP13Img" src={marie1} alt="" />
-              <img className="marieP13Img" src={marie2} alt="" />
-              <img className="marieP13Img" src={marie3} alt="" />
+            <div className="imgM2">
+              <img className="marieP2Img" src={marie1} alt="" />
+              <img className="marieP2Img" src={marie2} alt="" />
+              <img className="marieP2Img" src={marie3} alt="" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="marieP">
+          <div className="diapo43">
             <h4>Version 1 site bilingue</h4>
-            <div className="imgP14">
-              <img className="marieP13Img" src={marie4} alt="" />
-              <img className="marieP13Img" src={marie5} alt="" />
+            <div className="imgM3">
+              <img className="marieP3Img" src={marie4} alt="" />
+              <img className="marieP3Img" src={marie5} alt="" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="marieP">
+          <div className="diapo44">
             <h4>Version 2 avec React</h4>
             <h5>localisation react.i18next.js</h5>
 
-            <div className="imgP12">
-              <img className="marieP12Img" src={marie6} alt="" />
-              <img className="marieP12Img" src={marie7} alt="" />
+            <div className="imgM4">
+              <img className="marieP4Img" src={marie6} alt="" />
+              <img className="marieP4Img" src={marie7} alt="" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="marieP">
+          <div className="diapo45">
             <h4>react.i18next.js</h4>
 
-            <div className="imgP12">
-              <img className="marieP12Img" src={marie8} alt="" />
-              <img className="marieP12Img" src={marie9} alt="" />
+            <div className="imgM5">
+              <img className="marieP5Img" src={marie8} alt="" />
+              <img className="marieP5Img" src={marie9} alt="" />
             </div>
           </div>
         </SwiperSlide>
