@@ -62,7 +62,7 @@
 }
 
 .hrnet-links caption {
-  color: rgb(102, 67, 2);
+  color: #0b4e5c;
   font-size: 1rem;
   font-weight: bolder;
   margin-bottom: 0rem;
@@ -93,4 +93,11 @@
 }
 .hrnet-links td {
   font-size: 0.6rem;
+}
+.appliH {
+  color: #0b4e5c;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 1rem;
 }

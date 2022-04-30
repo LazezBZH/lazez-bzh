@@ -14,7 +14,9 @@
 }
 .btn {
   text-align: right;
-  width: 95%;
+  margin-right: 10%;
+
+  width: auto;
 }
 button {
   background-color: #377d8bc8;

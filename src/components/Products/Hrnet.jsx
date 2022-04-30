@@ -76,7 +76,7 @@ export default function Hrnet() {
 
           <tbody>
             <tr>
-              <td className="appli">Ancienne version OpenClassRooms</td>
+              <td className="appliH">Ancienne version OpenClassRooms</td>
               <td className="deploy">
                 <a
                   href="https://oldversion-hrnet-b-herault.netlify.app/index.html"
@@ -95,7 +95,7 @@ export default function Hrnet() {
               </td>
             </tr>
             <tr>
-              <td className="appli">Application HRnet version React</td>
+              <td className="appliH">Application HRnet version React</td>
               <td className="deploy">
                 <a
                   href="https://hrnet-p14-dfe-oc-herault-benedicte.netlify.app/"
@@ -114,7 +114,7 @@ export default function Hrnet() {
               </td>
             </tr>
             <tr>
-              <td className="appli">Application HRnet version vue</td>
+              <td className="appliH">Application HRnet version vue</td>
               <td className="deploy">
                 <a href="https://p14-vue-version.netlify.app/" target="blank">
                   &#x1F7E1;
@@ -127,7 +127,7 @@ export default function Hrnet() {
               </td>
             </tr>
             <tr>
-              <td className="appli">Composant npm</td>
+              <td className="appliH">Composant npm</td>
               <td className="deploy">
                 <a href="https://www.npmjs.com/package/customizable-react-modal-by-lazez">
                   &#x1F7E1;
