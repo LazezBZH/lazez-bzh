@@ -1,5 +1,10 @@
 import hrnet from "../../assets/hrnet3.gif";
 import hrnet1 from "../../assets/hrnet1.png";
+import hrnet2 from "../../assets/hrnet2.png";
+import logo from "../../assets/logoReact.png";
+import js from "../../assets/js.png";
+import npm from "../../assets/npm.png";
+import vue from "../../assets/vue.svg";
 
 import "./Hrnet.css";
 
@@ -23,7 +28,7 @@ export default function Hrnet() {
             &#x27A1; pour inscrire un employé
           </li>
           <li>
-            UN TABLEAU AVEC FONTCION DE TRI ET FILTRE
+            UN TABLEAU AVEC FONCTION DE TRI ET FILTRE
             <br />
             &#x27A1; pour visualiser les employés
           </li>
@@ -39,11 +44,24 @@ export default function Hrnet() {
           <li>Nouvelle version de l'appli avec Vue</li>
           <li>Ajout de certaines fonctionnalités à la version initiale</li>
         </ul>
-        <img className="hrnet-logo" src={hrnet} alt="" />
+        <div className="hrnet-img1">
+          <div className="hrnet-img">
+            <img className="hrnet-img" src={hrnet} alt="" />
+          </div>
+          <div className="hrnet-img">
+            <img className="hrnet-img" src={hrnet1} alt="" />
+          </div>
+          <div className="hrnet-img-last hrnet-img">
+            <img className="hrnet-img" src={hrnet2} alt="" />
+          </div>
+        </div>
       </div>
       <div className="hrnet-links">
         <div className="hrnet-img2">
-          <img className="hrnet-logo" src={hrnet1} alt="" />
+          <img className="hrnet-logo" src={js} alt="" />
+          <img className="hrnet-logo" src={logo} alt="" />
+          <img className="hrnet-logo" src={npm} alt="" />
+          <img className="hrnet-logo" src={vue} alt="" />
         </div>
         <table>
           <caption className="table-title">En découvrir plus</caption>

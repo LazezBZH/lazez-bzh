@@ -1,81 +1,78 @@
-.mySwiperR {
+.reacts {
   width: 90%;
-  height: 100%;
-
-  margin: 2rem auto 0.1rem auto;
-  border-radius: 2rem;
-}
-
-.swiper-slide {
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+  margin: 2rem auto;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+  justify-content: space-between;
 }
-
-.react.swiper-pagination {
-  font-weight: bold;
-  color: #0b4e5c;
-}
-.swipeTitleReact {
-  width: 100%;
-  height: 37rem;
+.react-infos {
+  width: 55%;
+  margin: auto;
+  padding: 3rem;
   position: relative;
   background-color: rgb(255, 200, 98);
+  border-radius: 50% 20% / 10% 40%;
 }
-li {
+.react-infos li {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   margin: 0.8rem 2rem;
 }
-.swipeTitleReact h1 {
-  font-size: 2.5rem;
+.react-infos h1 {
+  font-size: 1.6rem;
   margin-top: 0;
   color: rgb(102, 67, 2);
 }
-.swipeTitleReact h2 {
-  font-size: 1.5rem;
+.react-infos h2 {
+  font-size: 1.1rem;
 }
-.swipeTitleReact h3 {
-  font-size: 1.5rem;
+.react-infos h3 {
+  font-size: 1rem;
   text-decoration: underline;
 }
-.imgSlide1R {
-  width: 15rem;
-  position: absolute;
-  bottom: 2rem;
-  right: 5rem;
-}
-
-.reactsP {
-  width: 100%;
+.react-projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  height: 37rem;
-  background-color: rgb(255, 200, 98);
 }
-.reactsP h2 {
-  padding-bottom: 2rem;
+.react-img1 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
-.reactsP img {
-  max-width: 30rem;
-  padding: 2rem;
-  object-fit: contain;
+.react-img {
+  width: 8rem;
 }
 
-.reactsP img {
-  margin: 2rem auto auto auto;
-  max-width: 60rem;
+.react-links {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.react-img2 {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.react-img2 div {
+  margin: 2rem auto;
+}
+.react-logo {
+  width: 10rem;
+}
+
+.react-links caption {
+  color: rgb(102, 67, 2);
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-bottom: 0rem;
+}
+
+.react-links table {
+  padding-bottom: 0.3rem;
+  background-color: rgba(255, 166, 0, 0.249);
 }
 .git a {
   cursor: url("https://surlapage.fr/widget/cursors/4/1281251.gif"), default;
@@ -83,192 +80,19 @@ li {
 .deploy a {
   cursor: url("https://surlapage.fr/widget/cursors/16/1284150.gif"), default;
 }
-.appliR {
-  color: rgb(102, 67, 2);
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: left;
-  padding: 0 1rem;
-}
+
 .git,
 .deploy {
   text-align: left;
   padding: 0.5rem 2rem;
 }
-thead {
+.react-links thead {
   height: 2rem;
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
-th {
+.react-links th {
   padding: 0.5rem;
 }
-td {
-  font-size: 0.8rem;
-}
-.reactlinks caption {
-  color: rgb(102, 67, 2);
-  font-size: 1.2rem;
-  font-weight: bolder;
-  margin-bottom: 0rem;
-}
-
-.reactlinks {
-  width: 48%;
-  padding-bottom: 0.3rem;
-  background-color: rgba(255, 166, 0, 0.249);
-  margin-left: 47%;
-  margin-top: 0;
-}
-.allReacts {
-  display: flex;
-  flex-wrap: wrap;
-}
-.allReact {
-  width: 50%;
-}
-.allReact h4 {
-  transform: rotate(-45deg);
-  font-size: 1.3rem;
-  color: #05cdff;
-}
-.reactsP h4 {
-  font-size: 1.3rem;
-  color: #1d89c3;
-}
-.reactsP13 {
-  width: 40%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-.reactsP13 p {
-  margin-top: 5rem;
-  margin-bottom: -3.5rem;
-}
-.reactP13Img {
-  max-height: 20rem;
-}
-.imgP13,
-.imgP13k {
-  width: 70%;
-  display: flex;
-}
-.imgP13 img {
-  max-height: 15rem;
-}
-.imgP12k {
-  width: 70%;
-  max-height: 70%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.reactP12Img {
-  max-height: 8rem;
-}
-
-@media screen and (min-width: 781px) and (max-width: 1100px) {
-  .swipeTitleReact,
-  .reactsP {
-    height: 45rem;
-  }
-  .imgP12k img {
-    width: 30%;
-  }
-}
-
-@media screen and (min-width: 621px) and (max-width: 780px) {
-  .swipeTitleReact,
-  .reactsP {
-    height: 50rem;
-  }
-  .imgSlide1R {
-    width: 15rem;
-  }
-  .imgP13,
-  .imgP13k {
-    width: 70%;
-    display: block;
-  }
-  .imgP13 img {
-    max-height: 11.5rem;
-  }
-  .imgP13k img {
-    max-height: 17rem;
-  }
-  .imgP12k img {
-    width: 70%;
-  }
-}
-@media screen and (min-width: 620px) and (max-width: 761px) {
-  .imgP13k img {
-    max-width: 32%;
-  }
-}
-
-@media screen and (min-width: 461px) and (max-width: 620px) {
-  .swipeTitleReact,
-  .reactsP {
-    height: 50rem;
-  }
-  .imgSlide1R {
-    width: 15rem;
-    transform: translateX(7rem);
-  }
-  .imgP13 :first-child,
-  .imgP13k :first-child {
-    display: none;
-  }
-  .imgP12k img {
-    width: 70%;
-  }
-}
-@media screen and (min-width: 391px) and (max-width: 460px) {
-  .imgSlide1R {
-    width: 10rem;
-    transform: translateX(7rem);
-  }
-  .swipeTitleReact,
-  .reactsP {
-    height: 55rem;
-  }
-  #h2small {
-    font-size: 1.15rem;
-  }
-  .imgP13 img,
-  .imgP13k img {
-    max-height: 14rem;
-  }
-  .imgP13 :first-child,
-  .imgP13k :first-child {
-    display: none;
-  }
-  .imgP12k img {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .imgSlide1R {
-    width: 10rem;
-    transform: translateX(7rem);
-  }
-  .swipeTitleReact,
-  .reactsP {
-    height: 60rem;
-  }
-  #h2small {
-    font-size: 1.1rem;
-  }
-  .imgP13 :first-child,
-  .imgP13k :first-child {
-    display: none;
-  }
-  .imgP13 img,
-  .imgP13k img {
-    max-height: 14rem;
-  }
-  .imgP12k img {
-    width: 70%;
-  }
+.react-links td {
+  font-size: 0.6rem;
 }

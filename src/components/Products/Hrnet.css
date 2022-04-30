@@ -14,67 +14,83 @@
 }
 .hrnet-infos li {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   margin: 0.8rem 2rem;
 }
 .hrnet-infos h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-top: 0;
 }
 .hrnet-infos h2 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .hrnet-infos h3 {
   font-size: 1rem;
   text-decoration: underline;
 }
-.hrnet-logo {
-  width: 15rem;
+.hrnet-img1 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.hrnet-img {
+  width: 30%;
+}
+.hrnet-img:last-child {
+  width: 12rem;
+}
+.hrnet-img-last {
+  margin-top: 4rem;
 }
 
+.hrnet-links {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hrnet-img2 {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hrnet-logo {
+  width: 10rem;
+}
+
+.hrnet-links caption {
+  color: rgb(102, 67, 2);
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-bottom: 0rem;
+}
+
+.hrnet-links table {
+  padding-bottom: 0.3rem;
+  background-color: #94d6e37c;
+}
 .git a {
   cursor: url("https://surlapage.fr/widget/cursors/4/1281251.gif"), default;
 }
 .deploy a {
   cursor: url("https://surlapage.fr/widget/cursors/16/1284150.gif"), default;
 }
-.appli {
-  color: #0b4e5c;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: left;
-  padding: 0 1rem;
-}
+
 .git,
 .deploy {
   text-align: left;
   padding: 0.5rem 2rem;
 }
-thead {
+.hrnet-links thead {
   height: 2rem;
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
-th {
+.hrnet-links th {
   padding: 0.5rem;
 }
-td {
-  font-size: 0.8rem;
-}
-caption {
-  color: #0b4e5c;
-  font-size: 1.2rem;
-  font-weight: bolder;
-  margin-bottom: 0rem;
-}
-.hrnet-links {
-  width: 30%;
-}
-.hrnet-links table {
-  height: 20%;
-  margin-top: 30%;
-  background-color: #94d6e37c;
-  padding-bottom: 0.3rem;
-}
-.hrnet-img2 {
-  margin-top: 4rem;
+.hrnet-links td {
+  font-size: 0.6rem;
 }
