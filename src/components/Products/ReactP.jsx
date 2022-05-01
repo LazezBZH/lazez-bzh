@@ -66,7 +66,7 @@ export default function ReactP() {
             </ul>
           </div>
           <div className="react-img1">
-            <div>
+            <div className="react-img-first">
               <img className="react-img" src={argentbank2} alt="" />
             </div>
             <div>

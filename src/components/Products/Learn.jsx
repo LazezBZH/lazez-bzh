@@ -12,7 +12,7 @@ export default function Learn() {
   return (
     <div className="learn" id="learn">
       <div className="learn-infos">
-        <h1>Gestion de projet de développement en mode Agile</h1>
+        <h1>Gestion de projet en mode Agile</h1>
         <div className="learn-projects">
           <div className="learnP">
             <h2 id="h2small">
@@ -32,7 +32,7 @@ export default function Learn() {
               <li>Kanban</li>
             </ul>
             <div>
-              <img className="learn-img" src={learn3} alt="" />
+              <img className="learn-logo1" src={learn3} alt="" />
             </div>
             <h3>Choix des outils:</h3>
 

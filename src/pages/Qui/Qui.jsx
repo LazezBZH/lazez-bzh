@@ -5,11 +5,11 @@ import "./Qui.css";
 
 export default function Qui() {
   return (
-    <>
+    <div className="who">
       <div className=" wait">à venir, patience!</div>
       <div className="back">
         <Link to="/">Retour &#x21A9;</Link>
       </div>
-    </>
+    </div>
   );
 }

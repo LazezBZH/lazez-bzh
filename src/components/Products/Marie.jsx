@@ -50,14 +50,14 @@ export default function Marie() {
             </ul>
           </div>
           <div className="marie-img1">
-            <div>
-              <img className="marie-img" src={marie2} alt="" />
+            <div className="marie-img">
+              <img className="marie-img-11" src={marie2} alt="" />
             </div>
-            <div>
-              <img className="marie-img-last1 marie-img" src={marie10} alt="" />
+            <div className="marie-img">
+              <img className=" marie-img-22" src={marie10} alt="" />
             </div>
-            <div className="marie-img-last2 marie-img">
-              <img className="marie-img" src={marie11} alt="" />
+            <div className="marie-img">
+              <img className=" marie-img-33" src={marie11} alt="" />
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Marie() {
 
           <tbody>
             <tr>
-              <td className="appliR">Site en HTML</td>
+              <td className="appliM">Site en HTML</td>
               <td className="deploy">
                 <a href="https://www.marieaballea.fr/" target="blank">
                   &#x1F7E1;
@@ -101,7 +101,7 @@ export default function Marie() {
               </td>
             </tr>
             <tr>
-              <td className="appliR">Site avec React</td>
+              <td className="appliM">Site avec React</td>
               <td className="deploy">
                 <a href="https://site-marie-v2.netlify.app/" target="blank">
                   &#x1F7E1;
@@ -117,7 +117,7 @@ export default function Marie() {
               </td>
             </tr>
             <tr>
-              <td className="appliR">Découvir react.i18next.js</td>
+              <td className="appliM">Découvir react.i18next.js</td>
 
               <td className="git" colSpan={2}>
                 <a href="https://react.i18next.com/" target="blank">

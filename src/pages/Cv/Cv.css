@@ -1,7 +1,10 @@
-.cv {
-  width: auto;
+.my-cv {
+  width: 95%;
   height: auto;
   text-align: center;
+  border: solid 20px #0b4e5c;
+  border-radius: 2rem;
+  margin: auto;
 }
 .cvBanner {
   padding-bottom: 20rem;

@@ -1,9 +1,10 @@
 .home {
-  width: auto;
+  width: 95%;
   height: auto;
   text-align: center;
   border: solid 20px #0b4e5c;
   border-radius: 2rem;
+  margin: auto;
 }
 .scroll {
   position: relative;
@@ -44,7 +45,13 @@
   cursor: pointer;
 }
 .travaux {
-  background-color: rgba(200, 246, 245, 0.3);
+  background-color: #0b4e5c;
+}
+.travaux h1 {
+  color: orange;
+}
+.matières {
+  color: orange;
 }
 .ancres {
   display: flex;
@@ -53,8 +60,8 @@
   font-size: 0.8rem;
 }
 .ancres a {
-  color: rgb(3, 3, 180);
-  background-color: rgb(255, 191, 0);
+  color: rgb(0, 0, 0);
+  background-color: rgb(249, 197, 100);
   padding: 0.5rem;
   border-radius: 2rem;
   cursor: pointer;
@@ -109,4 +116,11 @@
 }
 
 @media screen and (max-width: 370px) {
+}
+.all-projects {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }

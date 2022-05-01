@@ -1,3 +1,11 @@
+.who {
+  width: 95%;
+  height: auto;
+  text-align: center;
+  border: solid 20px #0b4e5c;
+  border-radius: 2rem;
+  margin: auto;
+}
 .wait {
   width: 100%;
   margin: 20%;

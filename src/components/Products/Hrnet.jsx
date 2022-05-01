@@ -58,10 +58,18 @@ export default function Hrnet() {
       </div>
       <div className="hrnet-links">
         <div className="hrnet-img2">
-          <img className="hrnet-logo" src={js} alt="" />
-          <img className="hrnet-logo" src={logo} alt="" />
-          <img className="hrnet-logo" src={npm} alt="" />
-          <img className="hrnet-logo" src={vue} alt="" />
+          <div>
+            <img className="hrnet-logo" src={js} alt="" />
+          </div>
+          <div>
+            <img className="hrnet-logo" src={logo} alt="" />
+          </div>
+          <div>
+            <img className="hrnet-logo" src={npm} alt="" />
+          </div>
+          <div>
+            <img className="hrnet-logo" src={vue} alt="" />
+          </div>
         </div>
         <table>
           <caption className="table-title">En découvrir plus</caption>

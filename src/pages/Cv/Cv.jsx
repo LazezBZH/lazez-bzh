@@ -5,7 +5,7 @@ import "./Cv.css";
 
 export default function Cv() {
   return (
-    <div className="cv">
+    <div className="my-cv">
       <div className="cvBanner">
         <Banner />
       </div>

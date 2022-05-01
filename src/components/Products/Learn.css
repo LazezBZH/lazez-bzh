@@ -1,15 +1,19 @@
 .learn {
-  width: 90%;
-  margin: 2rem auto;
+  width: 49%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  background-color: #b5b5b632;
+  border-radius: 60%/10%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .learn-infos {
-  width: 55%;
-  margin: auto;
+  width: 80%;
+  margin: auto 2%;
   padding: 3rem;
   position: relative;
-  background-color: #94d6e3;
+  background-color: #b5b5b6;
   border-radius: 50% 20% / 10% 40%;
 }
 .learn-infos li {
@@ -20,7 +24,7 @@
 .learn-infos h1 {
   font-size: 1.6rem;
   margin-top: 0;
-  color: #0b4e5c;
+  color: #b53838;
 }
 .learn-infos h2 {
   font-size: 1.1rem;
@@ -34,26 +38,29 @@
   flex-wrap: wrap;
 }
 .learn-img1 {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-around;
 }
 .learn-img {
-  width: 8rem;
+  width: 80%;
 }
-
+.learn-logo1 {
+  width: 50%;
+}
 .learn-links {
-  width: 30%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .learn-img2 {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .learn-img2 div {
@@ -64,15 +71,16 @@
 }
 
 .learn-links caption {
-  color: #0b4e5c;
+  color: #b53838;
   font-size: 1rem;
   font-weight: bolder;
   margin-bottom: 0rem;
 }
 
 .learn-links table {
+  width: 50%;
   padding-bottom: 0.3rem;
-  background-color: #94d6e37c;
+  background-color: #b5b5b64b;
 }
 .git a {
   cursor: url("https://surlapage.fr/widget/cursors/4/1281251.gif"), default;
@@ -97,7 +105,7 @@
   font-size: 0.6rem;
 }
 .appliL {
-  color: #0b4e5c;
+  color: #b53838;
   font-size: 1rem;
   font-weight: bold;
   text-align: left;

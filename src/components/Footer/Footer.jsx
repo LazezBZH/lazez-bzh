@@ -12,9 +12,10 @@ export default function Footer() {
           <p>Portfolio créé sous React</p>
           <img className="invisible" src={react} alt="" />
           <p>et hébergé par</p>
-          <a href="https://www.netlify.com/">
+
+          <div className="img-footer2">
             <img src={netlify} alt="" />
-          </a>
+          </div>
         </div>
       </div>
     </div>

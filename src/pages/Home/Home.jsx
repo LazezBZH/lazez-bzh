@@ -48,10 +48,12 @@ export default function Home() {
         </div>
       </div>
 
-      <Hrnet />
-      <ReactP />
-      <Learn />
-      <Marie />
+      <div className="all-projects">
+        <Hrnet />
+        <ReactP />
+        <Learn />
+        <Marie />
+      </div>
       <AllParcours />
       <button className="homeBtn1">
         <a href="#up">&#x1F199;</a>

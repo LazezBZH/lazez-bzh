@@ -5,9 +5,6 @@ import Cv from "../../pages/Cv/Cv";
 import Qui from "../../pages/Qui/Qui";
 import "./App.css";
 
-//const Home = lazy(() => import("../../pages/Home/Home"));
-//const Cv = lazy(() => import("../../pages/Cv/Cv"));
-
 function App() {
   return (
     <React.StrictMode>

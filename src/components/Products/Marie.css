@@ -1,15 +1,20 @@
 .marie {
-  width: 90%;
+  width: 49%;
   margin: 2rem auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  background-color: rgba(138, 200, 180, 0.169);
+  border-radius: 60%/10%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .marie-infos {
-  width: 55%;
-  margin: auto;
+  width: 80%;
+  margin: auto 2%;
   padding: 3rem;
   position: relative;
-  background-color: rgb(255, 200, 98);
+  background-color: rgb(138, 200, 180);
   border-radius: 50% 20% / 10% 40%;
 }
 .marie-infos li {
@@ -20,7 +25,7 @@
 .marie-infos h1 {
   font-size: 1.6rem;
   margin-top: 0;
-  color: rgb(102, 67, 2);
+  color: rgb(10, 102, 2);
 }
 .marie-infos h2 {
   font-size: 1.1rem;
@@ -34,36 +39,41 @@
   flex-wrap: wrap;
 }
 .marie-img1 {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
 }
 .marie-img {
-  width: 20%;
+  width: 30%;
 }
-.marie-img:last-child {
-  width: 8rem;
+.marie-img-11 {
+  width: 80%;
 }
-.marie-img-last1 {
-  margin-top: 2rem;
-}
-.marie-img-last2 {
+.marie-img-22 {
+  width: 80%;
+  height: 40%;
+  object-fit: cover;
   margin-top: 4rem;
+}
+.marie-img-33 {
+  width: 80%;
+  margin-top: 2rem;
 }
 
 .marie-links {
-  width: 30%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .marie-img2 {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .marie-img2 div {
@@ -74,15 +84,16 @@
 }
 
 .marie-links caption {
-  color: rgb(102, 67, 2);
+  color: rgb(10, 102, 2);
   font-size: 1rem;
   font-weight: bolder;
   margin-bottom: 0rem;
 }
 
 .marie-links table {
+  width: 50%;
   padding-bottom: 0.3rem;
-  background-color: rgba(255, 166, 0, 0.249);
+  background-color: rgba(138, 200, 180, 0.438);
 }
 .git a {
   cursor: url("https://surlapage.fr/widget/cursors/4/1281251.gif"), default;
@@ -107,7 +118,7 @@
   font-size: 0.6rem;
 }
 .appliM {
-  color: rgb(102, 67, 2);
+  color: rgb(10, 102, 2);
   font-size: 1rem;
   font-weight: bold;
   text-align: left;
