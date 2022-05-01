@@ -1,6 +1,6 @@
 .my-cv {
   width: 95%;
-  height: auto;
+  height: 100vh;
   text-align: center;
   border: solid 20px #0b4e5c;
   border-radius: 2rem;
@@ -37,12 +37,12 @@ input[type="checkbox"]:checked ~ label > img {
   bottom: 1%;
   right: 5%;
   padding: 1rem;
-  border: solid 5px rgb(73, 145, 103);
+  border: solid 5px #0b4e5c;
   border-radius: 1rem;
-  background-color: rgba(73, 145, 103, 0.3);
+  background-color: #9ce2f0;
 }
 .download a {
-  color: rgb(73, 145, 103);
+  color: #0b4e5c;
   font-weight: bolder;
   text-decoration: none;
   cursor: url("https://surlapage.fr/widget/cursors/16/1281092.gif"), default;
