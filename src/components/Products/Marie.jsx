@@ -75,58 +75,63 @@ export default function Marie() {
             <img className="marie-logo" src={react} alt="" />
           </div>
         </div>
-        <table>
-          <caption className="table-title">En découvrir plus</caption>
+        <div className="tableM">
+          <table>
+            <caption className="table-title">En découvrir plus</caption>
 
-          <thead>
-            <tr>
-              <th></th>
-              <th>Déploiement</th>
-              <th>GitHub</th>
-            </tr>
-          </thead>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Déploiement</th>
+                <th>GitHub</th>
+              </tr>
+            </thead>
 
-          <tbody>
-            <tr>
-              <td className="appliM">Site en HTML</td>
-              <td className="deploy">
-                <a href="https://www.marieaballea.fr/" target="blank">
-                  &#x1F7E1;
-                </a>
-              </td>
-              <td className="git">
-                <a href="https://github.com/LazezBZH/Site-Marie" target="blank">
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td className="appliM">Site avec React</td>
-              <td className="deploy">
-                <a href="https://site-marie-v2.netlify.app/" target="blank">
-                  &#x1F7E1;
-                </a>
-              </td>
-              <td className="git">
-                <a
-                  href="https://github.com/LazezBZH/Site-Marie-V2"
-                  target="blank"
-                >
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td className="appliM">Découvir react.i18next.js</td>
+            <tbody>
+              <tr>
+                <td className="appliM">Site en HTML</td>
+                <td className="deploy">
+                  <a href="https://www.marieaballea.fr/" target="blank">
+                    &#x1F7E1;
+                  </a>
+                </td>
+                <td className="git">
+                  <a
+                    href="https://github.com/LazezBZH/Site-Marie"
+                    target="blank"
+                  >
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="appliM">Site avec React</td>
+                <td className="deploy">
+                  <a href="https://site-marie-v2.netlify.app/" target="blank">
+                    &#x1F7E1;
+                  </a>
+                </td>
+                <td className="git">
+                  <a
+                    href="https://github.com/LazezBZH/Site-Marie-V2"
+                    target="blank"
+                  >
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="appliM">Découvir react.i18next.js</td>
 
-              <td className="git" colSpan={2}>
-                <a href="https://react.i18next.com/" target="blank">
-                  Pour un site bilingue (ou plus)
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                <td className="git" colSpan={2}>
+                  <a href="https://react.i18next.com/" target="blank">
+                    Pour un site bilingue (ou plus)
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

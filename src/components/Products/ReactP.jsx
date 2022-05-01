@@ -94,70 +94,72 @@ export default function ReactP() {
             <img className="react-logo" src={recharts} alt="" />
           </div>
         </div>
-        <table>
-          <caption className="table-title">En découvrir plus</caption>
+        <div className="tableR">
+          <table>
+            <caption className="table-title">En découvrir plus</caption>
 
-          <thead>
-            <tr>
-              <th></th>
-              <th>Déploiement</th>
-              <th>GitHub</th>
-            </tr>
-          </thead>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Déploiement</th>
+                <th>GitHub</th>
+              </tr>
+            </thead>
 
-          <tbody>
-            <tr>
-              <td className="appliR">Argentbank</td>
-              <td className="deploy"></td>
-              <td className="git">
-                <a
-                  href="https://github.com/LazezBZH/BenedicteHERAULT_13_20102021"
-                  target="blank"
-                >
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td className="appliR">Application SportSee</td>
-              <td className="deploy">
-                <a
-                  href="https://sportsee-p12-dfe-oc-herault-benedicte.netlify.app/"
-                  target="blank"
-                >
-                  &#x1F7E1;
-                </a>
-              </td>
-              <td className="git">
-                <a
-                  href="https://github.com/LazezBZH/BenedicteHERAULT_12_27092021"
-                  target="blank"
-                >
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td className="appliR">Application Kasa</td>
-              <td className="deploy">
-                <a
-                  href="https://kasa-p11-dfe-oc-herault-benedicte.netlify.app/"
-                  target="blank"
-                >
-                  &#x1F7E1;
-                </a>
-              </td>
-              <td className="git">
-                <a
-                  href="https://github.com/LazezBZH/BenedicteHERAULT_11_12092021"
-                  target="blank"
-                >
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+            <tbody>
+              <tr>
+                <td className="appliR">Argentbank</td>
+                <td className="deploy"></td>
+                <td className="git">
+                  <a
+                    href="https://github.com/LazezBZH/BenedicteHERAULT_13_20102021"
+                    target="blank"
+                  >
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="appliR">Application SportSee</td>
+                <td className="deploy">
+                  <a
+                    href="https://sportsee-p12-dfe-oc-herault-benedicte.netlify.app/"
+                    target="blank"
+                  >
+                    &#x1F7E1;
+                  </a>
+                </td>
+                <td className="git">
+                  <a
+                    href="https://github.com/LazezBZH/BenedicteHERAULT_12_27092021"
+                    target="blank"
+                  >
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="appliR">Application Kasa</td>
+                <td className="deploy">
+                  <a
+                    href="https://kasa-p11-dfe-oc-herault-benedicte.netlify.app/"
+                    target="blank"
+                  >
+                    &#x1F7E1;
+                  </a>
+                </td>
+                <td className="git">
+                  <a
+                    href="https://github.com/LazezBZH/BenedicteHERAULT_11_12092021"
+                    target="blank"
+                  >
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

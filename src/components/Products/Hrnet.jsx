@@ -71,87 +71,89 @@ export default function Hrnet() {
             <img className="hrnet-logo" src={vue} alt="" />
           </div>
         </div>
-        <table>
-          <caption className="table-title">En découvrir plus</caption>
+        <div className="tableH">
+          <table>
+            <caption className="table-title">En découvrir plus</caption>
 
-          <thead>
-            <tr>
-              <th></th>
-              <th>Déploiement</th>
-              <th>GitHub</th>
-            </tr>
-          </thead>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Déploiement</th>
+                <th>GitHub</th>
+              </tr>
+            </thead>
 
-          <tbody>
-            <tr>
-              <td className="appliH">Ancienne version OpenClassRooms</td>
-              <td className="deploy">
-                <a
-                  href="https://oldversion-hrnet-b-herault.netlify.app/index.html"
-                  target="blank"
-                >
-                  &#x1F7E1;
-                </a>
-              </td>
-              <td className="git">
-                <a
-                  href="https://github.com/OpenClassrooms-Student-Center/P12_Front-end"
-                  target="blank"
-                >
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td className="appliH">Application HRnet version React</td>
-              <td className="deploy">
-                <a
-                  href="https://hrnet-p14-dfe-oc-herault-benedicte.netlify.app/"
-                  target="blank"
-                >
-                  &#x1F7E1;
-                </a>
-              </td>
-              <td className="git">
-                <a
-                  href="https://github.com/LazezBZH/BenedicteHERAULT_14_23112021"
-                  target="blank"
-                >
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td className="appliH">Application HRnet version vue</td>
-              <td className="deploy">
-                <a href="https://p14-vue-version.netlify.app/" target="blank">
-                  &#x1F7E1;
-                </a>
-              </td>
-              <td className="git">
-                <a href="https://github.com/LazezBZH/p14-vue" target="blank">
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td className="appliH">Composant npm</td>
-              <td className="deploy">
-                <a href="https://www.npmjs.com/package/customizable-react-modal-by-lazez">
-                  &#x1F7E1;
-                </a>
-              </td>
-              <td className="git">
-                <a
-                  href="https://github.com/LazezBZH/customizable-react-modal-lazez"
-                  target="blank"
-                >
-                  &#x1F535;
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+            <tbody>
+              <tr>
+                <td className="appliH">Ancienne version OpenClassRooms</td>
+                <td className="deploy">
+                  <a
+                    href="https://oldversion-hrnet-b-herault.netlify.app/index.html"
+                    target="blank"
+                  >
+                    &#x1F7E1;
+                  </a>
+                </td>
+                <td className="git">
+                  <a
+                    href="https://github.com/OpenClassrooms-Student-Center/P12_Front-end"
+                    target="blank"
+                  >
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="appliH">Application HRnet version React</td>
+                <td className="deploy">
+                  <a
+                    href="https://hrnet-p14-dfe-oc-herault-benedicte.netlify.app/"
+                    target="blank"
+                  >
+                    &#x1F7E1;
+                  </a>
+                </td>
+                <td className="git">
+                  <a
+                    href="https://github.com/LazezBZH/BenedicteHERAULT_14_23112021"
+                    target="blank"
+                  >
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="appliH">Application HRnet version vue</td>
+                <td className="deploy">
+                  <a href="https://p14-vue-version.netlify.app/" target="blank">
+                    &#x1F7E1;
+                  </a>
+                </td>
+                <td className="git">
+                  <a href="https://github.com/LazezBZH/p14-vue" target="blank">
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="appliH">Composant npm</td>
+                <td className="deploy">
+                  <a href="https://www.npmjs.com/package/customizable-react-modal-by-lazez">
+                    &#x1F7E1;
+                  </a>
+                </td>
+                <td className="git">
+                  <a
+                    href="https://github.com/LazezBZH/customizable-react-modal-lazez"
+                    target="blank"
+                  >
+                    &#x1F535;
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

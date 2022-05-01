@@ -13,10 +13,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home">
-      <div id="up">
-        Site en cours de remodelage, le responsive n'est pas totalement géré, à
-        venir!
-      </div>
+      <div id="up"></div>
       <div className="scroll">
         <Banner />
 

@@ -75,7 +75,13 @@
 .ancre {
   margin-top: 1.8rem;
 }
-
+.all-projects {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 @-moz-keyframes spin {
   100% {
     -moz-transform: rotate(360deg);
@@ -103,6 +109,9 @@
   flex-wrap: wrap;
 }
 @media screen and (max-width: 1000px) {
+  .all-projects {
+    flex-direction: column;
+  }
   .logoReact {
     display: none;
   }
@@ -110,17 +119,17 @@
     width: 25rem;
     height: 25rem;
   }
+  .ancres {
+    width: 90%;
+    margin: auto;
+  }
+  .travaux {
+    padding-bottom: 2r;
+  }
 }
 
 @media screen and (max-width: 780px) {
 }
 
 @media screen and (max-width: 370px) {
-}
-.all-projects {
-  width: 98%;
-  margin: auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
 }

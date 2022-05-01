@@ -82,6 +82,9 @@
   padding-bottom: 0.3rem;
   background-color: #b5b5b64b;
 }
+.tableL {
+  margin: auto;
+}
 .git a {
   cursor: url("https://surlapage.fr/widget/cursors/4/1281251.gif"), default;
 }
@@ -110,4 +113,26 @@
   font-weight: bold;
   text-align: left;
   padding: 0 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .learn {
+    width: 100%;
+  }
+  .learn-links {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .learn-infos {
+    width: 70%;
+    margin: auto;
+  }
+  .learn-img2 {
+    width: 28%;
+    margin: auto 0;
+  }
+}
+@media screen and (max-width: 549px) {
 }
