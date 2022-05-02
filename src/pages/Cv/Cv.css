@@ -32,6 +32,28 @@ input[type="checkbox"]:checked ~ label > img {
   position: absolute;
   top: 15rem;
   margin-left: -5rem;
+  z-index: 900;
+  -webkit-animation: invisible-btn 5ms linear forwards;
+  animation: invisible-btn 5ms linear forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  opacity: 0;
+}
+@-webkit-keyframes invisible-btn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes invisible-btn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .download {
   position: fixed;
@@ -41,6 +63,13 @@ input[type="checkbox"]:checked ~ label > img {
   border: solid 5px #0b4e5c;
   border-radius: 1rem;
   background-color: #9ce2f0;
+  z-index: 900;
+  -webkit-animation: invisible-btn 5ms linear forwards;
+  animation: invisible-btn 5ms linear forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  opacity: 0;
+  cursor: url("https://surlapage.fr/widget/cursors/16/1281092.gif"), default;
 }
 .download a {
   color: #0b4e5c;
@@ -52,15 +81,19 @@ input[type="checkbox"]:checked ~ label > img {
 /*loader*/
 
 @-webkit-keyframes invisible {
+  0% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
-    visibility: hidden;
   }
 }
 @keyframes invisible {
+  0% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
-    visibility: hidden;
   }
 }
 .loading {

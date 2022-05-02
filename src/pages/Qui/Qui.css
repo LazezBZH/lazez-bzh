@@ -13,35 +13,61 @@
   font-weight: bolder;
   color: red;
 }
+
+@-webkit-keyframes invisible-back {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes invisible-back {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .back {
-  width: 10rem;
-  padding: 1rem;
   margin: 10% 30%;
-  font-size: 2rem;
-  font-weight: bolder;
-  background-color: pink;
-  border-radius: 15%;
+  z-index: 900;
+  -webkit-animation: invisible-back 5ms linear forwards;
+  animation: invisible-back 5ms linear forwards;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  opacity: 0;
+}
+.back a {
+  font-size: 1.3rem;
+  color: #0b4e5c;
+  font-weight: bold;
 }
 
 /*loader*/
 
 @-webkit-keyframes invisibleq {
+  0% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
-    visibility: hidden;
   }
 }
 @keyframes invisibleq {
+  0% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
-    visibility: hidden;
   }
 }
 .loader-qui {
   width: 100vw;
   height: 105vh;
   position: absolute;
-  z-index: 300;
+
   left: 0;
   top: 0;
   right: 0;

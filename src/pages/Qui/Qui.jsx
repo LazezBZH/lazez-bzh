@@ -1,5 +1,6 @@
 //import Banner from "../../components/Banner/Banner";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import TypeWriterEffect from "react-typewriter-effect";
 
 import "./Qui.css";
@@ -16,16 +17,18 @@ export default function Qui() {
             fontSize: "5rem",
           }}
           startDelay={50}
-          cursorColor="Goldenrod"
+          cursorColor="SandyBrown"
           text="WHO?.."
           typeSpeed={200}
           hideCursorAfterText="true"
         />
       </div>
-      <div className=" wait">à venir, patience!</div>
       <div className="back">
-        <Link to="/">Retour &#x21A9;</Link>
+        <button>
+          <Link to="/"> &#x21A9; Home</Link>
+        </button>
       </div>
+      <div className=" wait">à venir, patience!</div>
     </div>
   );
 }
