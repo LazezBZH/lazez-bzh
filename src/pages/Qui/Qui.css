@@ -5,15 +5,29 @@
   border: solid 20px #0b4e5c;
   border-radius: 2rem;
   margin: auto;
-}
-.wait {
-  width: 100%;
-  margin: 20%;
-  font-size: 3rem;
-  font-weight: bolder;
-  color: red;
+  background-color: white;
+  background-image: url(../../assets/canard.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  -webkit-animation: invisible-back 5ms linear forwards;
+  animation: invisible-back 5ms linear forwards;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  position: relative;
 }
 
+.who-all {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+.who li {
+  list-style: none;
+  text-align: left;
+}
 @-webkit-keyframes invisible-back {
   0% {
     opacity: 0;
@@ -25,19 +39,23 @@
 @keyframes invisible-back {
   0% {
     opacity: 0;
+    height: 2rem;
   }
   100% {
     opacity: 1;
+    height: auto;
   }
 }
+
 .back {
-  margin: 10% 30%;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
   z-index: 900;
-  -webkit-animation: invisible-back 5ms linear forwards;
-  animation: invisible-back 5ms linear forwards;
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
-  opacity: 0;
+  margin: auto;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
 }
 .back a {
   font-size: 1.3rem;
@@ -64,14 +82,14 @@
   }
 }
 .loader-qui {
-  width: 100vw;
-  height: 105vh;
+  width: auto;
+  height: auto;
   position: absolute;
-
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
+  z-index: 99;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,4 +102,9 @@
   animation: invisible 5ms linear forwards;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
+}
+.span-qui {
+  color: cyan;
+  font-size: 1.2rem;
+  font-weight: bold;
 }

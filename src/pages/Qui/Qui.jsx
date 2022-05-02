@@ -3,11 +3,17 @@ import React from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import TypeWriterEffect from "react-typewriter-effect";
 
+import Who1 from "../../components/Who/Who1";
+import Who2 from "../../components/Who/Who2";
+import Who3 from "../../components/Who/Who3";
+import Who4 from "../../components/Who/Who4";
+import Who5 from "../../components/Who/Who5";
+
 import "./Qui.css";
 
 export default function Qui() {
   return (
-    <div className="who">
+    <div className="qui">
       <div className="loader-qui">
         <TypeWriterEffect
           textStyle={{
@@ -23,12 +29,23 @@ export default function Qui() {
           hideCursorAfterText="true"
         />
       </div>
-      <div className="back">
-        <button>
-          <Link to="/"> &#x21A9; Home</Link>
-        </button>
+      <div className="who">
+        <div className="who-all">
+          <Who1 />
+          <Who2 />
+          <Who3 />
+          <Who4 />
+        </div>
+        <Who5 />
+        <div className="back">
+          <button>
+            <Link to="/">Retour &#9754;</Link>
+          </button>
+          <button>
+            <Link to="/cv"> CV &#10173;</Link>
+          </button>
+        </div>
       </div>
-      <div className=" wait">à venir, patience!</div>
     </div>
   );
 }
