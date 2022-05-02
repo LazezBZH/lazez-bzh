@@ -10,7 +10,7 @@ export default function AllParcours() {
     titleRef.current.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <>
+    <div className="my-parcours">
       <div style={{ overflowX: "auto" }} className="allparcours">
         <div className="ref" ref={titleRef}>
           c
@@ -29,9 +29,9 @@ export default function AllParcours() {
           ))}
         </div>
       </div>
-      <div className="btn">
+      <div className="parcours-btn">
         <button onClick={handleBackClick}>&#x1F53C; </button>
       </div>
-    </>
+    </div>
   );
 }

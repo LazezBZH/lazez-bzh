@@ -3,6 +3,7 @@
   height: 100vh;
   text-align: center;
   border: solid 20px #0b4e5c;
+
   border-radius: 2rem;
   margin: auto;
 }
@@ -47,6 +48,64 @@ input[type="checkbox"]:checked ~ label > img {
   text-decoration: none;
   cursor: url("https://surlapage.fr/widget/cursors/16/1281092.gif"), default;
 }
+
+/*loader*/
+
+@-webkit-keyframes invisible {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes invisible {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 105vh;
+  position: absolute;
+  z-index: 300;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-animation: invisible 5ms linear forwards;
+  animation: invisible 5ms linear forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #0b4e5c;
+  border-left: 5rem solid #94d6e3;
+  border-top: 5rem solid rgb(255, 200, 98);
+  border-right: 5rem solid #94d6e3;
+  border-bottom: 5rem solid rgb(255, 200, 98);
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  animation: spin 2s linear 2;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 @media screen and (max-width: 370px) {
   .image-zoom {

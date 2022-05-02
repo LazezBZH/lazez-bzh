@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner/Banner";
+import TypeWriterEffect from "react-typewriter-effect";
 //import Footer from "../../components/Footer/Footer";
 import cvjanv from "../../assets/cv.png";
 import "./Cv.css";
@@ -6,6 +7,25 @@ import "./Cv.css";
 export default function Cv() {
   return (
     <div className="my-cv">
+      <div className="loading">
+        <div className="loader typewriter">
+          <div className="my-name anim-typewriter">
+            <TypeWriterEffect
+              textStyle={{
+                fontFamily: "Red Hat Display",
+                color: "#0b4e5c",
+                fontWeight: "bolder",
+                fontSize: "2rem",
+              }}
+              startDelay={50}
+              cursorColor="Cyan"
+              text="Bénédicte HÉRAULT"
+              typeSpeed={200}
+              hideCursorAfterText="true"
+            />
+          </div>
+        </div>
+      </div>
       <div className="cvBanner">
         <Banner />
       </div>

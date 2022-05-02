@@ -6,16 +6,21 @@
 
 .allparcours {
   margin-top: 2rem;
-  height: 39rem;
+  height: 43rem;
   position: relative;
 }
 .ref {
   color: rgba(255, 0, 0, 0);
 }
-.btn {
+.my-parcours {
+  position: relative;
+}
+.parcours-btn {
   text-align: right;
   margin-right: 10%;
-
+  position: absolute;
+  right: -8.5%;
+  top: 92%;
   width: auto;
 }
 button {

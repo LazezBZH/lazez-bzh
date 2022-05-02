@@ -22,3 +22,40 @@
   background-color: pink;
   border-radius: 15%;
 }
+
+/*loader*/
+
+@-webkit-keyframes invisibleq {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes invisibleq {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.loader-qui {
+  width: 100vw;
+  height: 105vh;
+  position: absolute;
+  z-index: 300;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: url(../../assets/maisqui.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  -webkit-animation: invisible 5ms linear forwards;
+  animation: invisible 5ms linear forwards;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
