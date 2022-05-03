@@ -6,3 +6,11 @@
   padding: 2rem;
   border-radius: 10%;
 }
+.retard {
+  width: 10rem;
+  float: left;
+}
+.ponctuel {
+  width: 12rem;
+  float: right;
+}

@@ -1,22 +1,23 @@
-.who5 {
+.who6 {
   width: 30%;
-  background-color: white;
-  border: 0.2rem solid rgb(61, 210, 61);
+  background-color: black;
+  border: 0.2rem solid red;
+  color: white;
   padding: 1rem 2rem;
   border-radius: 20%;
 }
-.who5 ul {
+.who6 ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.who5 li {
+.who6 li {
   margin: auto 1rem;
 }
-.who5 h1 {
-  color: black;
-  background-color: rgb(61, 210, 61);
-  border-radius: 5rem 0 0 5rem;
+.who6 h1 {
+  color: white;
+  background-color: red;
+  border-radius: 0 5rem 5rem 0;
   padding: 0.2rem;
   font-size: 1.3rem;
   font-weight: bold;

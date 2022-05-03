@@ -1,17 +1,21 @@
 import "./Who2.css";
+import watermelon from "../../assets/qui/watermelon.jpg";
 
 export default function Who2() {
   return (
     <div className="who2">
       <h1>UN PEU DE FOLIE</h1>
       <h4>Comme quand je réponds à certaines offres d'emploi</h4>
+      <div className="watermelon">
+        <img src={watermelon} alt="" />
+      </div>
       <ul>
         <li>
           &#8669; l'une d'entre elles demandait de mentionner "watermelon" dans
           notre réponse afin de prouver qu'on l'avait lue jusqu'au bout
         </li>
         <li>
-          &#8669; j'ai codé un minisite pour y répondre...sur le thème des
+          &#8669; j'ai codé un minisite pour y répondre... sur le thème des
           pastèques
         </li>
         <li>
@@ -32,6 +36,11 @@ export default function Who2() {
           personnalité
         </li>
       </ul>
+      <div className="who2-link">
+        <a href="https://watermelonlazez.netlify.app/" target="blank">
+          Watermelon mini site
+        </a>
+      </div>
     </div>
   );
 }

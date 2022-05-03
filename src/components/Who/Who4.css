@@ -6,3 +6,41 @@
   padding: 2rem;
   border-radius: 10%;
 }
+.swipers {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mySwiper4 img {
+  width: 7rem;
+  height: 9rem;
+  margin: 5% auto auto -20%;
+  object-fit: cover;
+}
+.mySwiper5 img {
+  width: 7rem;
+  height: 9rem;
+  margin: 5% auto auto -20%;
+  object-fit: cover;
+}
+.mySwiper1 img {
+  width: 10rem;
+  height: 8rem;
+  margin: auto auto auto -20%;
+  object-fit: cover;
+}
+
+.mySwiper3 img {
+  width: 10rem;
+  height: 8rem;
+  margin: auto -20% auto auto;
+  object-fit: cover;
+}
+.mySwiper2 img {
+  width: 15rem;
+  height: 10rem;
+  margin: auto;
+  object-fit: cover;
+}

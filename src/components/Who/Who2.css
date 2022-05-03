@@ -5,4 +5,26 @@
   margin-top: 2rem;
   padding: 2rem;
   border-radius: 10%;
+  position: relative;
+}
+.who2 a {
+  color: orange;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 0.1rem solid orange;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+.who2-link {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+.watermelon {
+  width: 18rem;
+  float: right;
+}
+.watermelon img {
+  width: 50%;
+  float: right;
 }

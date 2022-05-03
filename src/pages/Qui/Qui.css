@@ -10,10 +10,7 @@
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center;
-  -webkit-animation: invisible-back 5ms linear forwards;
-  animation: invisible-back 5ms linear forwards;
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+
   position: relative;
 }
 
@@ -28,30 +25,12 @@
   list-style: none;
   text-align: left;
 }
-@-webkit-keyframes invisible-back {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes invisible-back {
-  0% {
-    opacity: 0;
-    height: 2rem;
-  }
-  100% {
-    opacity: 1;
-    height: auto;
-  }
-}
 
 .back {
   width: 30%;
   display: flex;
   justify-content: space-around;
-  z-index: 900;
+
   margin: auto;
   position: absolute;
   bottom: 1rem;
@@ -68,17 +47,21 @@
 @-webkit-keyframes invisibleq {
   0% {
     opacity: 1;
+    height: 100%;
   }
   100% {
     opacity: 0;
+    height: 100%;
   }
 }
 @keyframes invisibleq {
   0% {
     opacity: 1;
+    height: 300vh;
   }
   100% {
     opacity: 0;
+    height: 0%;
   }
 }
 .loader-qui {
@@ -88,7 +71,7 @@
   left: 0;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: -500rem;
   z-index: 99;
   display: flex;
   justify-content: center;
@@ -96,10 +79,10 @@
   background-color: orange;
   background-image: url(../../assets/maisqui.webp);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right 50% top 2%;
   background-size: 50%;
-  -webkit-animation: invisible 5ms linear forwards;
-  animation: invisible 5ms linear forwards;
+  -webkit-animation: invisibleq 5ms linear forwards;
+  animation: invisibleq 5ms linear forwards;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
@@ -107,4 +90,18 @@
   color: cyan;
   font-size: 1.2rem;
   font-weight: bold;
+}
+.typing {
+  position: absolute;
+  top: 4%;
+}
+
+.who-plus {
+  width: 95%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin: auto auto 5rem auto;
+  padding: 0;
 }

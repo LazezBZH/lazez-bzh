@@ -8,6 +8,9 @@ import Who2 from "../../components/Who/Who2";
 import Who3 from "../../components/Who/Who3";
 import Who4 from "../../components/Who/Who4";
 import Who5 from "../../components/Who/Who5";
+import Who6 from "../../components/Who/Who6";
+
+import yin from "../../assets/qui/yin.gif";
 
 import "./Qui.css";
 
@@ -15,19 +18,21 @@ export default function Qui() {
   return (
     <div className="qui">
       <div className="loader-qui">
-        <TypeWriterEffect
-          textStyle={{
-            fontFamily: "Red Hat Display",
-            color: "#0b4e5c",
-            fontWeight: "bolder",
-            fontSize: "5rem",
-          }}
-          startDelay={50}
-          cursorColor="SandyBrown"
-          text="WHO?.."
-          typeSpeed={200}
-          hideCursorAfterText="true"
-        />
+        <div className="typing">
+          <TypeWriterEffect
+            textStyle={{
+              fontFamily: "Red Hat Display",
+              color: "#0b4e5c",
+              fontWeight: "bolder",
+              fontSize: "5rem",
+            }}
+            startDelay={50}
+            cursorColor="SandyBrown"
+            text="WHO?.."
+            typeSpeed={200}
+            hideCursorAfterText="true"
+          />
+        </div>
       </div>
       <div className="who">
         <div className="who-all">
@@ -36,8 +41,14 @@ export default function Qui() {
           <Who3 />
           <Who4 />
         </div>
-        <Who5 />
-        <div className="back">
+        <div className="who-plus">
+          <Who5 />
+          <div>
+            <img src={yin} alt="" />
+          </div>
+          <Who6 />
+        </div>
+        <div className=" back">
           <button>
             <Link to="/">Retour &#9754;</Link>
           </button>
