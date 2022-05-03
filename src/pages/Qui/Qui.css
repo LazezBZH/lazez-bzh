@@ -19,7 +19,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: auto;
+  margin: 10rem auto auto auto;
 }
 .who li {
   list-style: none;
@@ -104,4 +104,9 @@
 
   margin: auto auto 5rem auto;
   padding: 0;
+}
+.who .banner {
+  width: 100%;
+  position: absolute;
+  top: 0;
 }

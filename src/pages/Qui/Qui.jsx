@@ -1,4 +1,4 @@
-//import Banner from "../../components/Banner/Banner";
+import Banner from "../../components/Banner/Banner";
 import React from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import TypeWriterEffect from "react-typewriter-effect";
@@ -34,7 +34,9 @@ export default function Qui() {
           />
         </div>
       </div>
+
       <div className="who">
+        <Banner />
         <div className="who-all">
           <Who1 />
           <Who2 />

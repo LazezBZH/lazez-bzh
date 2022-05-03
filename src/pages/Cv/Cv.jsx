@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner/Banner";
 import TypeWriterEffect from "react-typewriter-effect";
-//import Footer from "../../components/Footer/Footer";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import cvjanv from "../../assets/cv.png";
 import "./Cv.css";
 
@@ -40,9 +40,17 @@ export default function Cv() {
           target="blank"
           href="https://drive.google.com/file/d/1uriO8ogWo7sQfrheJk-guhOqYHSjh-eU/view?usp=sharing"
         >
-          Téléchargez mon CV en PDF
+          Téléchargez PDF
         </a>
       </button>
+      <div className=" back-cv">
+        <button>
+          <Link to="/">Retour &#9754;</Link>
+        </button>
+        <button>
+          <Link to="/qui"> Portrait &#10173;</Link>
+        </button>
+      </div>
     </div>
   );
 }
