@@ -176,3 +176,11 @@ input[type="checkbox"]:checked ~ label > img {
   color: #0b4e5c;
   font-weight: bold;
 }
+
+@media screen and (max-width: 500px) {
+  .loader {
+    width: 10rem;
+    height: 10rem;
+    font-size: 1rem;
+  }
+}

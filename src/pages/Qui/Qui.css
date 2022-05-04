@@ -13,13 +13,26 @@
 
   position: relative;
 }
-
+.who-all-plus {
+  margin-top: 13.5rem;
+}
+.who-all-plus button {
+  padding: 1rem;
+  border-radius: 50% 10%;
+  margin-bottom: -10%;
+}
+.who-all-plus button a {
+  font-size: 1rem;
+  color: #0b4e5c;
+  font-weight: bold;
+  cursor: pointer;
+}
 .who-all {
   width: 95%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 10rem auto auto auto;
+  margin: 0 auto auto auto;
 }
 .who li {
   list-style: none;
@@ -109,4 +122,70 @@
   width: 100%;
   position: absolute;
   top: 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .who-plus h1 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 870px) {
+  .who-plus h1 {
+    font-size: 0.8rem;
+  }
+  .who-plus li {
+    font-size: 0.8rem;
+    margin: auto 0.2rem;
+  }
+  .who-plus ul {
+    justify-content: start;
+    padding-left: 0;
+  }
+  .who-plus img {
+    width: 50%;
+  }
+  .yin {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 680px) {
+  .who-plus {
+    flex-direction: column;
+    align-items: center;
+  }
+  .who-plus,
+  .who1,
+  .who2,
+  .who3,
+  .who4 {
+    width: 100%;
+  }
+  .who5,
+  .who6 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 610px) {
+  .back {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+    margin: auto;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+  }
+  .back a {
+    font-size: 1rem;
+    color: #0b4e5c;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 370px) {
+  .who-all-plus {
+    margin-top: 18rem;
+  }
 }

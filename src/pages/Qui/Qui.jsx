@@ -9,6 +9,7 @@ import Who3 from "../../components/Who/Who3";
 import Who4 from "../../components/Who/Who4";
 import Who5 from "../../components/Who/Who5";
 import Who6 from "../../components/Who/Who6";
+import Who7 from "../../components/Who/Who7";
 
 import yin from "../../assets/qui/yin.gif";
 
@@ -37,15 +38,27 @@ export default function Qui() {
 
       <div className="who">
         <Banner />
-        <div className="who-all">
-          <Who1 />
-          <Who2 />
-          <Who3 />
-          <Who4 />
+        <div className="who-all-plus">
+          <button>
+            <a
+              href="https://app.assessfirst.com/_/profile/oxskit6r-benedicte-herault"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Lien vers profil Assesfirst
+            </a>
+          </button>
+          <Who7 />
+          <div className="who-all">
+            <Who1 />
+            <Who2 />
+            <Who3 />
+            <Who4 />
+          </div>
         </div>
         <div className="who-plus">
           <Who5 />
-          <div>
+          <div className="yin">
             <img src={yin} alt="" />
           </div>
           <Who6 />

@@ -3,7 +3,7 @@ import "./Who5.css";
 export default function Who5() {
   return (
     <div className="who5">
-      <h1>AUTRES CENTRES D'INTÉRÊT/SENSIBILISATION À</h1>
+      <h1>AUTRES CENTRES D'INTÉRÊT /SENSIBILISATION À</h1>
 
       <ul>
         <li>
