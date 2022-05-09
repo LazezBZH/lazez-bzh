@@ -45,7 +45,7 @@ export default function Who4() {
           className="mySwiper1"
         >
           <SwiperSlide>
-            <div className="diapos">
+            <div>
               <img src={art1} alt="" />
             </div>
           </SwiperSlide>
@@ -55,7 +55,7 @@ export default function Who4() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="diapos">
+            <div>
               <img src={art3} alt="" />
             </div>
           </SwiperSlide>
