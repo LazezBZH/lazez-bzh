@@ -76,7 +76,6 @@
   left: 3%;
   font-size: 1.5rem;
   padding: 0.2rem;
-  z-index: 99;
 }
 .homeBtn2 {
   position: fixed;
@@ -84,7 +83,6 @@
   right: 3%;
   font-size: 1.5rem;
   padding: 0, 2rem;
-  z-index: 99;
 }
 .homeBtn1 a,
 .homeBtn2 a {

@@ -70,19 +70,30 @@ export default function Quote() {
           <p className="italic">Auteur: {quote.author}</p>
         </div>
         <div className="quote3">
-          <a href="https://github.com/FotieMConstant/geek-quote-api">Source</a>
+          <a
+            target="blank"
+            href="https://github.com/FotieMConstant/geek-quote-api"
+          >
+            Source
+          </a>
 
           <button onClick={handleClick}>Une autre?</button>
         </div>
       </div>
 
       <div className="date">
-        Nous sommes le <span className="underline">{date}</span> et, en France
-        métropolitaine, il est{" "}
-        <span className="surligne">
-          {hour} h {minute}
-        </span>
-        .
+        <div>
+          {" "}
+          Nous sommes le <span className="underline">{date}</span> et,
+        </div>{" "}
+        <div>
+          {" "}
+          en France métropolitaine, il est{" "}
+          <span className="surligne">
+            {hour} h {minute}
+          </span>
+          .
+        </div>
       </div>
     </div>
   );
