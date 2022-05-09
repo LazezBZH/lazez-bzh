@@ -8,7 +8,9 @@
   position: -webkit-sticky;
   position: sticky;
 }
-
+.banner a {
+  cursor: pointer;
+}
 .bannerImg {
   width: 95%;
   height: 10rem;
