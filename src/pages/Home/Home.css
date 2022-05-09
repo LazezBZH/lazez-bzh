@@ -6,6 +6,52 @@
   border-radius: 2rem;
   margin: auto;
 }
+@-webkit-keyframes invisibleh {
+  0% {
+    opacity: 1;
+    height: 100%;
+  }
+  100% {
+    opacity: 0;
+    height: 100%;
+  }
+}
+@keyframes invisibleh {
+  0% {
+    opacity: 1;
+    height: 300vh;
+  }
+  100% {
+    opacity: 0;
+    height: 0%;
+  }
+}
+.loader-home {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: -500rem;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6e8e94;
+  background-image: url(../../assets/moi2.jpg);
+  background-repeat: no-repeat;
+  background-position: right 50% top 5vh;
+  background-size: 50vh;
+  -webkit-animation: invisibleh 500ms linear forwards;
+  animation: invisibleh 500ms linear forwards;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.typing-home {
+  position: absolute;
+  top: 60vh;
+}
 .scroll {
   position: relative;
 }
@@ -128,7 +174,7 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1500px) {
 }
 
 @media screen and (max-width: 370px) {

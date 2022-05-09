@@ -8,21 +8,41 @@ import Learn from "../../components/Products/Learn";
 import Marie from "../../components/Products/Marie";
 import AllParcours from "../../components/Parcours/AllParcours";
 import logoReact from "../../assets/logoReact.svg";
+import TypeWriterEffect from "react-typewriter-effect";
+import Quote from "../../components/Quote/Quote";
 
 import "./Home.css";
 export default function Home() {
   return (
     <div className="home">
+      <div className="loader-home">
+        <div className="typing-home">
+          <TypeWriterEffect
+            textStyle={{
+              fontFamily: "Red Hat Display",
+              color: "#0b4e5c",
+              fontWeight: 500,
+              fontSize: "3rem",
+            }}
+            startDelay={200}
+            cursorColor="#0b4e5c"
+            multiText={["BÉNÉDICTE HÉRAULT", "Développeuse Front-End"]}
+            multiTextDelay={200}
+            typeSpeed={30}
+            hideCursorAfterText="true"
+          />
+        </div>
+      </div>
       <div id="up"></div>
       <div className="scroll">
         <Banner />
-
         <Links />
         <Technos />
         <div className="logoReact">
           <img src={logoReact} alt="" />
         </div>
       </div>
+      <Quote />
       <div className="travaux">
         <h1>Travaux</h1>
 

@@ -37,10 +37,11 @@ export default function Technos() {
         <Box position={[2.5, 0, 0]} />
       </Canvas>
       <div className="techno">
-        <div className="tech">HTML/CSS</div>
         <div className="tech">Javascript</div>
         <div className="tech">React</div>
         <div className="tech">Redux</div>
+        <div className="tech">HTML/CSS</div>
+        <div className="tech">Vue</div>
         <div className="tech">VScode</div>
         <div className="tech">GitHub</div>
       </div>
