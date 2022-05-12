@@ -172,8 +172,14 @@
   }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
+  .travaux {
+    padding-bottom: 5rem;
+  }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 326px) {
+  .ancre {
+    font-size: 0.7rem;
+  }
 }

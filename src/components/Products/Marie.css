@@ -148,5 +148,16 @@
   }
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 360px) {
+  .marie-links {
+    flex-direction: column;
+  }
+  table {
+    width: 100%;
+    margin: auto;
+  }
+  .marie-img2 {
+    width: 100%;
+    flex-direction: row;
+  }
 }

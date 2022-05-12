@@ -20,7 +20,7 @@ export default function Who2() {
         </li>
         <li>
           &#8669; l'annonce était rédigée en anglais pour un emploi en France,
-          j'ai donc codé un site multi langues
+          j'ai donc codé un site multi langues français, anglais et Yoda.
         </li>
       </ul>
       <h4>Mais très sérieuse en même-temps</h4>

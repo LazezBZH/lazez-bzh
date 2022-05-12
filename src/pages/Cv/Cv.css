@@ -157,7 +157,6 @@ input[type="checkbox"]:checked ~ label > img {
   }
 }
 .back-cv {
-  z-index: 900;
   width: 15%;
   display: flex;
   justify-content: space-around;

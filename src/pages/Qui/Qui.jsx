@@ -45,7 +45,7 @@ export default function Qui() {
               target="_blank"
               rel="noreferrer"
             >
-              Lien vers profil Assesfirst
+              Lien vers profil Assessfirst
             </a>
           </button>
           <Who7 />
