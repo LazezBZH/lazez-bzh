@@ -6,34 +6,37 @@ import "./Cv.css";
 
 export default function Cv() {
   return (
-    <div className="my-cv">
-      <div className="loading">
-        <div className="loader typewriter">
-          <div className="my-name anim-typewriter">
-            <TypeWriterEffect
-              textStyle={{
-                fontFamily: "Red Hat Display",
-                color: "#0b4e5c",
-                fontWeight: "bolder",
-                fontSize: "2rem",
-              }}
-              startDelay={50}
-              cursorColor="Cyan"
-              text="Bénédicte HÉRAULT"
-              typeSpeed={200}
-              hideCursorAfterText="true"
-            />
+    <>
+      {" "}
+      <div className="my-cv">
+        <div className="loading">
+          <div className="loader typewriter">
+            <div className="my-name anim-typewriter">
+              <TypeWriterEffect
+                textStyle={{
+                  fontFamily: "Red Hat Display",
+                  color: "#0b4e5c",
+                  fontWeight: "bolder",
+                  fontSize: "2rem",
+                }}
+                startDelay={50}
+                cursorColor="Cyan"
+                text="Bénédicte HÉRAULT"
+                typeSpeed={200}
+                hideCursorAfterText="true"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="cvBanner">
-        <Banner />
-      </div>
-      <div class="image-zoom">
-        <input type="checkbox" id="zoomCheck"></input>
-        <label for="zoomCheck">
-          <img className="cvImg" src={cvjanv} alt="" />
-        </label>
+        <div className="cvBanner">
+          <Banner />
+        </div>
+        <div class="image-zoom">
+          <input type="checkbox" id="zoomCheck"></input>
+          <label for="zoomCheck">
+            <img className="cvImg" src={cvjanv} alt="" />
+          </label>
+        </div>
       </div>
       <button className="download">
         <a
@@ -51,6 +54,6 @@ export default function Cv() {
           <Link to="/qui"> Portrait &#10173;</Link>
         </button>
       </div>
-    </div>
+    </>
   );
 }

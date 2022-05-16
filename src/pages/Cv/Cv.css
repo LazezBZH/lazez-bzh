@@ -103,7 +103,7 @@ input[type="checkbox"]:checked ~ label > img {
   width: 100vw;
   height: 105vh;
   position: absolute;
-  z-index: 300;
+  z-index: 900;
   left: 0;
   top: 0;
   right: 0;
@@ -157,13 +157,12 @@ input[type="checkbox"]:checked ~ label > img {
   }
 }
 .back-cv {
-  width: 15%;
+  z-index: 900;
+  width: 30%;
   display: flex;
   justify-content: space-around;
-  margin: auto;
-  position: absolute;
-  bottom: 1%;
-  left: 15%;
+  margin: 1rem auto;
+
   -webkit-animation: invisible-btn 5ms linear forwards;
   animation: invisible-btn 5ms linear forwards;
   -webkit-animation-delay: 5s;
