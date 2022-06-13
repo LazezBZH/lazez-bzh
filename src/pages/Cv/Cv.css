@@ -102,7 +102,7 @@ input[type="checkbox"]:checked ~ label > img {
   align-items: center;
   width: 100vw;
   height: 105vh;
-  position: absolute;
+  position: fixed;
   z-index: 900;
   left: 0;
   top: 0;
