@@ -60,7 +60,7 @@ export default function Who3() {
         </li>
         <li>
           &#8669; des capacités d'
-          <span className="span-qui"> organisation</span>
+          <span className="span-qui"> organisation </span>
           et de <span className="span-qui"> gestion du stress</span> (une tribu
           à gérer c'est parfois un marathon)
         </li>
