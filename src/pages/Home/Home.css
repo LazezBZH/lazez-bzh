@@ -1,5 +1,5 @@
 .home {
-  width: 95%;
+  width: 90%;
   height: auto;
   text-align: center;
   border: solid 20px #0b4e5c;
@@ -39,15 +39,22 @@
   justify-content: center;
   align-items: center;
   background-color: #6e8e94;
-  background-image: url(../../assets/moi2.jpg);
-  background-repeat: no-repeat;
-  background-position: right 50% top 5vh;
-  background-size: 50vh;
+
   -webkit-animation: invisibleh 500ms linear forwards;
   animation: invisibleh 500ms linear forwards;
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
 }
+.moiLoad {
+  position: absolute;
+  top: 5vh;
+  width: 50vw;
+}
+.moiLoad img {
+  width: 50vw;
+  max-width: 300px;
+}
+
 .typing-home {
   position: absolute;
   top: 60vh;

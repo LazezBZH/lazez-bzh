@@ -84,8 +84,8 @@ export default function Quote() {
       <div className="date">
         <div>
           {" "}
-          Nous sommes le <span className="underline">{date}</span> et,
-        </div>{" "}
+          Nous sommes le <span className="underline">{date}</span> et,{" "}
+        </div>
         <div>
           {" "}
           en France métropolitaine, il est{" "}

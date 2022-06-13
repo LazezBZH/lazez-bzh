@@ -30,7 +30,7 @@ export default function Marie() {
             <h3>Version 2 (en cours de développement)</h3>
             <ul>
               <li>React</li>
-              <li>Styles components</li>
+              <li>Styled components</li>
               <li>Utilsation de react.i18next.js pour gérer la localisation</li>
             </ul>
           </div>
@@ -84,7 +84,7 @@ export default function Marie() {
                 <td className="appliM">Site en HTML</td>
                 <td className="deploy">
                   <a href="https://www.marieaballea.fr/" target="blank">
-                    &#x1F7E1;
+                    &#x23F3;
                   </a>
                 </td>
                 <td className="git">
@@ -92,7 +92,7 @@ export default function Marie() {
                     href="https://github.com/LazezBZH/Site-Marie"
                     target="blank"
                   >
-                    &#x1F535;
+                    &#x1F431;
                   </a>
                 </td>
               </tr>
@@ -100,7 +100,7 @@ export default function Marie() {
                 <td className="appliM">Site avec React</td>
                 <td className="deploy">
                   <a href="https://site-marie-v2.netlify.app/" target="blank">
-                    &#x1F7E1;
+                    &#x23F3;
                   </a>
                 </td>
                 <td className="git">
@@ -108,7 +108,7 @@ export default function Marie() {
                     href="https://github.com/LazezBZH/Site-Marie-V2"
                     target="blank"
                   >
-                    &#x1F535;
+                    &#x1F431;
                   </a>
                 </td>
               </tr>

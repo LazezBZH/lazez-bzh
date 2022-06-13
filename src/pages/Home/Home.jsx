@@ -6,16 +6,21 @@ import Hrnet from "../../components/Products/Hrnet";
 import ReactP from "../../components/Products/ReactP";
 import Learn from "../../components/Products/Learn";
 import Marie from "../../components/Products/Marie";
+import Api from "../../components/Products/Api";
 import AllParcours from "../../components/Parcours/AllParcours";
 import logoReact from "../../assets/logoReact.svg";
 import TypeWriterEffect from "react-typewriter-effect";
 import Quote from "../../components/Quote/Quote";
+import moi from "../../assets/moi2.jpg";
 
 import "./Home.css";
 export default function Home() {
   return (
     <div className="home">
       <div className="loader-home">
+        <div className="moiLoad">
+          <img className="moiLoadImg" src={moi} alt="" />
+        </div>
         <div className="typing-home">
           <TypeWriterEffect
             textStyle={{
@@ -49,15 +54,16 @@ export default function Home() {
         <div className="ancres">
           <p className="matières">Quelques exemples:</p>
           <div className="ancre">
-            <a href="#hrnet">
-              HRnet 2 versions, site transposé en React et en Vue
-            </a>
+            <a href="#hrnet">1 sites/2 versions (React et Vue)</a>
           </div>
           <div className="ancre">
-            <a href="#react">3 autres projets React</a>
+            <a href="#react">3 autres exemples React</a>
           </div>
           <div className="ancre">
-            <a href="#learn">Learn@Home en Agile</a>
+            <a href="#api">-API-</a>
+          </div>
+          <div className="ancre">
+            <a href="#learn">Soyons "Agile"</a>
           </div>
           <div className="ancre">
             <a href="#marie">Site Sophrologie Reiki</a>
@@ -68,6 +74,7 @@ export default function Home() {
       <div className="all-projects">
         <Hrnet />
         <ReactP />
+        <Api />
         <Learn />
         <Marie />
       </div>

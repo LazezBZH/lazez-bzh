@@ -94,7 +94,7 @@ export default function Learn() {
                     href="https://github.com/LazezBZH/BenedicteHERAULT_10_23082021"
                     target="blank"
                   >
-                    &#x1F535;
+                    &#x1F431;
                   </a>
                 </td>
               </tr>
@@ -105,7 +105,7 @@ export default function Learn() {
                     href="https://www.figma.com/file/P2Po8U8NnJrfz8gAMVeVwv/Learn%40Home?node-id=0%3A1"
                     target="blank"
                   >
-                    &#x1F7E1;
+                    &#x23F3;
                   </a>
                 </td>
                 <td className="git"></td>
@@ -118,7 +118,7 @@ export default function Learn() {
                     href="https://github.com/LazezBZH/BenedicteHERAULT_10_23082021/blob/main/Use%20cases%20Learn%40Home/_synth%C3%A8se_%20Use%20cases%20Learn%40Home.pdf"
                     target="blank"
                   >
-                    &#x1F535;
+                    &#x1F431;
                   </a>
                 </td>
               </tr>
@@ -130,7 +130,7 @@ export default function Learn() {
                     href="https://github.com/LazezBZH/BenedicteHERAULT_10_23082021/blob/main/User%20stories%20Learn%40Home/_synth%C3%A8se_%20User%20stories%20Learn%40Home.pdf"
                     target="blank"
                   >
-                    &#x1F535;
+                    &#x1F431;
                   </a>
                 </td>
               </tr>
@@ -141,7 +141,7 @@ export default function Learn() {
                     href="https://www.notion.so/05c416acbd0c4eec8037810666114fdd?v=aa1768dc2de147788fe71b30e13d71a4"
                     target="blank"
                   >
-                    &#x1F7E1;
+                    &#x23F3;
                   </a>
                 </td>
                 <td className="git"></td>

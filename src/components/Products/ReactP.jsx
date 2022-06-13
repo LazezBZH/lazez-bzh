@@ -115,18 +115,18 @@ export default function ReactP() {
                     href="https://github.com/LazezBZH/BenedicteHERAULT_13_20102021"
                     target="blank"
                   >
-                    &#x1F535;
+                    &#x1F431;
                   </a>
                 </td>
               </tr>
               <tr>
-                <td className="appliR">Application SportSee</td>
+                <td className="appliR">SportSee</td>
                 <td className="deploy">
                   <a
                     href="https://sportsee-p12-dfe-oc-herault-benedicte.netlify.app/"
                     target="blank"
                   >
-                    &#x1F7E1;
+                    &#x23F3;
                   </a>
                 </td>
                 <td className="git">
@@ -134,18 +134,18 @@ export default function ReactP() {
                     href="https://github.com/LazezBZH/BenedicteHERAULT_12_27092021"
                     target="blank"
                   >
-                    &#x1F535;
+                    &#x1F431;
                   </a>
                 </td>
               </tr>
               <tr>
-                <td className="appliR">Application Kasa</td>
+                <td className="appliR">Kasa</td>
                 <td className="deploy">
                   <a
                     href="https://kasa-p11-dfe-oc-herault-benedicte.netlify.app/"
                     target="blank"
                   >
-                    &#x1F7E1;
+                    &#x23F3;
                   </a>
                 </td>
                 <td className="git">
@@ -153,7 +153,7 @@ export default function ReactP() {
                     href="https://github.com/LazezBZH/BenedicteHERAULT_11_12092021"
                     target="blank"
                   >
-                    &#x1F535;
+                    &#x1F431;
                   </a>
                 </td>
               </tr>
