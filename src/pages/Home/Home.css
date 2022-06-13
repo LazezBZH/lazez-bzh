@@ -9,11 +9,11 @@
 @-webkit-keyframes invisibleh {
   0% {
     opacity: 1;
-    height: 100%;
+    height: 300%;
   }
   100% {
     opacity: 0;
-    height: 100%;
+    height: 0%;
   }
 }
 @keyframes invisibleh {
@@ -49,10 +49,18 @@
   position: absolute;
   top: 5vh;
   width: 50vw;
+  -webkit-animation: invisibleh 500ms linear forwards;
+  animation: invisibleh 500ms linear forwards;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
 }
 .moiLoad img {
   width: 50vw;
   max-width: 300px;
+  -webkit-animation: invisibleh 500ms linear forwards;
+  animation: invisibleh 500ms linear forwards;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .typing-home {
