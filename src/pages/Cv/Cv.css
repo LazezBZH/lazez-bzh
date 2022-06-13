@@ -83,17 +83,21 @@ input[type="checkbox"]:checked ~ label > img {
 @-webkit-keyframes invisible {
   0% {
     opacity: 1;
+    height: 100%;
   }
   100% {
     opacity: 0;
+    height: 0%;
   }
 }
 @keyframes invisible {
   0% {
     opacity: 1;
+    height: 100%;
   }
   100% {
     opacity: 0;
+    height: 0%;
   }
 }
 .loading {

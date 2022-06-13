@@ -64,7 +64,7 @@
   }
   100% {
     opacity: 0;
-    height: 100%;
+    height: 0%;
   }
 }
 @keyframes invisibleq {
