@@ -185,9 +185,7 @@
   .travaux {
     padding-bottom: 2r;
   }
-}
 
-@media screen and (max-width: 1000px) {
   .travaux {
     padding-bottom: 5rem;
   }

@@ -125,6 +125,9 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .who {
+    width: 90%;
+  }
   .who-plus h1 {
     font-size: 1rem;
   }

@@ -142,24 +142,6 @@ input[type="checkbox"]:checked ~ label > img {
     transform: rotate(360deg);
   }
 }
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-
-@media screen and (max-width: 370px) {
-  .image-zoom {
-    position: absolute;
-    top: 18rem;
-  }
-  input[type="checkbox"]:checked ~ label > img {
-    transform: scale(1.9) translateY(5rem);
-    cursor: zoom-out;
-  }
-}
-@media screen and (max-width: 700px) {
-  input[type="checkbox"]:checked ~ label > img {
-    transform: scale(2) translateY(8rem);
-    cursor: zoom-out;
-  }
-}
 .back-cv {
   z-index: 900;
   width: 30%;
@@ -178,11 +160,28 @@ input[type="checkbox"]:checked ~ label > img {
   color: #0b4e5c;
   font-weight: bold;
 }
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
+@media screen and (max-width: 900px) {
+  .my-cv {
+    width: 90%;
+  }
+  .download {
+    position: fixed;
+    bottom: 30%;
+    right: 14%;
+  }
+}
 @media screen and (max-width: 500px) {
   .loader {
     width: 10rem;
     height: 10rem;
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 370px) {
+  .image-zoom {
+    position: absolute;
+    top: 18rem;
   }
 }
