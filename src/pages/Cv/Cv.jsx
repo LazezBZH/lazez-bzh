@@ -1,7 +1,7 @@
 import Banner from "../../components/Banner/Banner";
 import TypeWriterEffect from "react-typewriter-effect";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import cvjanv from "../../assets/cv.png";
+import cvjuin from "../../assets/cvjuin.png";
 import "./Cv.css";
 
 export default function Cv() {
@@ -34,14 +34,14 @@ export default function Cv() {
         <div class="image-zoom">
           <input type="checkbox" id="zoomCheck"></input>
           <label for="zoomCheck">
-            <img className="cvImg" src={cvjanv} alt="" />
+            <img className="cvImg" src={cvjuin} alt="" />
           </label>
         </div>
       </div>
       <button className="download">
         <a
           target="blank"
-          href="https://drive.google.com/file/d/1uriO8ogWo7sQfrheJk-guhOqYHSjh-eU/view?usp=sharing"
+          href="https://drive.google.com/file/d/1tntxfulMDm6QOf1sTcLspke2QxLtQ13n/view?usp=sharing"
         >
           Téléchargez PDF
         </a>
