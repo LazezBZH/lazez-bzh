@@ -168,13 +168,19 @@ a {
     animation: none;
   }
 
+  .links a {
+    margin-left: 40%;
+    margin-right: auto;
+    width: auto;
+  }
   .links {
-    width: 90%;
-    margin: auto;
+    width: 99%;
+
     margin-top: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+
     animation: none;
   }
 
