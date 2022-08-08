@@ -1,6 +1,8 @@
 import api1 from "../../assets/api1.png";
 import api2 from "../../assets/api2.png";
 import api3 from "../../assets/api3.png";
+import api4 from "../../assets/spacex.png";
+import api5 from "../../assets/spacex2.png";
 
 import "./Api.css";
 
@@ -54,7 +56,38 @@ export default function Api() {
               </li>
             </ul>
           </div>
+          <div className="apiP">
+            <h2 id="h2small">Intégration de l'API SpaceX dans une appli.</h2>
+            <h3>SpaceX</h3>
 
+            <ul>
+              <li>
+                Récupération des données de l'APi et affichage de celles-ci.
+              </li>
+              <li>Choix du thème dark ou light.</li>
+              <li>Filtre des divers lancements.</li>
+              <li>
+                Affichage en aside du prochain lancement avec décompte du temps.
+              </li>
+              <li>Lien vers la fiche des membres d'équipage.</li>
+              <li>Page contenant l'intégralité des membres d'équipage.</li>
+              <li>Loaders sur le thème de l'espace en css.</li>
+            </ul>
+            <h4>Difficultés rencontrées</h4>
+            <ul>
+              <li>
+                API n'est pas toujours mise à jour en temps voulu
+                &#x2198;&#x2198;.
+              </li>
+              <li>
+                nécessité de gérer l'affichage différent si l'API n'est pas à
+                jour (ex pour ne pas avoir un décompte négatif du temps).
+              </li>
+            </ul>
+          </div>
+          <div className="apiP">
+            <img className="api-img" src={api5} alt="" />
+          </div>
           <div className="api-img1">
             <div className="api-img-landscape">
               <img className="api-img" src={api1} alt="" />
@@ -64,6 +97,9 @@ export default function Api() {
             </div>
             <div className="api-img-landscape">
               <img className="api-img" src={api3} alt="" />
+            </div>
+            <div>
+              <img className="api-img" src={api4} alt="" />
             </div>
           </div>
         </div>
@@ -132,6 +168,27 @@ export default function Api() {
                 <td className="ref">
                   <a
                     href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca"
+                    target="blank"
+                  >
+                    &#x1F449;
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td className="appliR">SpaceX</td>
+                <td className="deploy">
+                  <a href="https://space-x-lazez.netlify.app/" target="blank">
+                    &#x23F3;
+                  </a>
+                </td>
+                <td className="git">
+                  <a href="https://github.com/LazezBZH/SpaceX" target="blank">
+                    &#x1F431;
+                  </a>
+                </td>
+                <td className="ref">
+                  <a
+                    href="https://github.com/r-spacex/SpaceX-API"
                     target="blank"
                   >
                     &#x1F449;
