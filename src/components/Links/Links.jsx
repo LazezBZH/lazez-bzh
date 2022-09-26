@@ -7,6 +7,7 @@ export default function Links() {
     <div className="links">
       {dataLinks.map((dataLink, index) => (
         <Lien
+          // onClick={window.scrollTo(0, 0)}
           key={index}
           src={dataLink.src}
           alt={dataLink.alt}

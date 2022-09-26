@@ -1,7 +1,7 @@
 import Banner from "../../components/Banner/Banner";
 import TypeWriterEffect from "react-typewriter-effect";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import cv from "../../assets/cvjuil.png";
+import cv from "../../assets/cvsept.png";
 import "./Cv.css";
 
 export default function Cv() {
@@ -22,7 +22,7 @@ export default function Cv() {
                 startDelay={50}
                 cursorColor="Cyan"
                 text="Bénédicte HÉRAULT"
-                typeSpeed={200}
+                typeSpeed={150}
                 hideCursorAfterText="true"
               />
             </div>
@@ -41,16 +41,16 @@ export default function Cv() {
       <button className="download">
         <a
           target="blank"
-          href="https://drive.google.com/file/d/1xkW9oN2QvOgJveVqOkIQ9V4QTHknWr7Q/view?usp=sharing"
+          href="https://drive.google.com/file/d/152gKUzcLAqRyFDRGGyvwcf-RxGKKa5JK/view?usp=sharing"
         >
           Téléchargez PDF
         </a>
       </button>
       <div className=" back-cv">
-        <button>
+        <button onClick={window.scrollTo(0, 0)}>
           <Link to="/">Retour &#9754;</Link>
         </button>
-        <button>
+        <button onClick={window.scrollTo(0, 0)}>
           <Link to="/qui"> Portrait &#10173;</Link>
         </button>
       </div>

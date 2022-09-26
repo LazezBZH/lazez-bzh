@@ -36,8 +36,8 @@ input[type="checkbox"]:checked ~ label > img {
   z-index: 900;
   -webkit-animation: invisible-btn 5ms linear forwards;
   animation: invisible-btn 5ms linear forwards;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
   opacity: 0;
 }
 @-webkit-keyframes invisible-btn {
@@ -67,8 +67,8 @@ input[type="checkbox"]:checked ~ label > img {
   z-index: 900;
   -webkit-animation: invisible-btn 5ms linear forwards;
   animation: invisible-btn 5ms linear forwards;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
   opacity: 0;
   cursor: url("https://surlapage.fr/widget/cursors/16/1281092.gif"), default;
 }
@@ -116,8 +116,8 @@ input[type="checkbox"]:checked ~ label > img {
   background-color: white;
   -webkit-animation: invisible 5ms linear forwards;
   animation: invisible 5ms linear forwards;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
 }
 .loader {
   display: flex;
@@ -133,7 +133,7 @@ input[type="checkbox"]:checked ~ label > img {
   border-radius: 50%;
   width: 20rem;
   height: 20rem;
-  animation: spin 2s linear 2;
+  animation: spin 1500ms linear 2;
 }
 @keyframes spin {
   0% {
@@ -152,8 +152,8 @@ input[type="checkbox"]:checked ~ label > img {
 
   -webkit-animation: invisible-btn 5ms linear forwards;
   animation: invisible-btn 5ms linear forwards;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
   opacity: 0;
 }
 .back-cv a {

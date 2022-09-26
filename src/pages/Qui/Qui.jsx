@@ -64,10 +64,10 @@ export default function Qui() {
           <Who6 />
         </div>
         <div className=" back">
-          <button>
+          <button onClick={window.scrollTo(0, 0)}>
             <Link to="/">Retour &#9754;</Link>
           </button>
-          <button>
+          <button onClick={window.scrollTo(0, 0)}>
             <Link to="/cv"> CV &#10173;</Link>
           </button>
         </div>
