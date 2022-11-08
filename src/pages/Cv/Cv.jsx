@@ -1,7 +1,7 @@
 import Banner from "../../components/Banner/Banner";
 import TypeWriterEffect from "react-typewriter-effect";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import cv from "../../assets/cvsept.png";
+import cv from "../../assets/cvnov22.png";
 import "./Cv.css";
 
 export default function Cv() {
@@ -41,7 +41,7 @@ export default function Cv() {
       <button className="download">
         <a
           target="blank"
-          href="https://drive.google.com/file/d/152gKUzcLAqRyFDRGGyvwcf-RxGKKa5JK/view?usp=sharing"
+          href="https://drive.google.com/file/d/1cYkOhDlS61_AseNfbsWO3ddUDt4Zb6xs/view?usp=sharing"
         >
           Téléchargez PDF
         </a>
