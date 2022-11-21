@@ -32,6 +32,14 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+    L'élément clef est un fichier manifeste web qui liste toutes les informations concernant le site web au format JSON.
+
+Il se trouve habituellement dans le dossier racine de l'application web. Il contient des informations utiles telles que le nom de l'application, le chemin vers les icones de différentes tailles à utiliser pour représenter l'application sur un système d'exploitation mobile (par exemple, en tant qu'icone sur l'écran d'accueil) et une couleur de fond à utiliser pour les écrans de chargement ou surgissant. Cette information est nécessaire pour que le navigateur puisse présenter correctement l'application lors de l'installation et sur l'écran d'accueil.
+
+Le fichier js13kpwa.webmanifest de l'application web js13kPWA est inclus dans la section <head> du fichier index.html via la ligne de code suivante:
+
+<link rel="manifest" href="/lazez.webmanifest">
     <title>Lazez BZH</title>
   </head>
   <body>
