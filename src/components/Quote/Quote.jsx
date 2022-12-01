@@ -1,5 +1,5 @@
 import "./Quote.css";
-import GetData from "../../utils/getApi";
+// import GetData from "../../utils/getApi";
 //import GetDate from "../../utils/getDate";
 //import { currentTime, hour, minute } from "../../utils/getTime";
 import { useEffect, useState, useCallback } from "react";
@@ -46,24 +46,24 @@ export default function Quote() {
   useClock(currentTime, hour, minute);
 
   //quote
-  const [quote, updateQuote] = useState({});
+  // const [quote, updateQuote] = useState({});
 
-  useEffect(() => {
-    function getQuote() {
-      const data = new GetData();
-      data.getQuote().then((data) => updateQuote(data));
-    }
-    getQuote();
-  }, []);
+  // useEffect(() => {
+  //   function getQuote() {
+  //     const data = new GetData();
+  //     data.getQuote().then((data) => updateQuote(data));
+  //   }
+  //   getQuote();
+  // }, []);
 
-  function handleClick() {
-    const data = new GetData();
-    data.getQuote().then((data) => updateQuote(data));
-  }
+  // function handleClick() {
+  //   const data = new GetData();
+  //   data.getQuote().then((data) => updateQuote(data));
+  // }
 
   return (
     <div className="quote-all">
-      <div className="quote">
+      {/* <div className="quote">
         <h3 className="quote1">Citation Geek Random</h3>
         <div className="quote2">
           <p>{quote.quote}</p>
@@ -78,6 +78,24 @@ export default function Quote() {
           </a>
 
           <button onClick={handleClick}>Une autre?</button>
+        </div>
+      </div> */}
+      <div className="quote">
+        <h3 className="quote1">
+          Ici il y avait une jolie citation Geek Random
+        </h3>
+        <div className="quote2">
+          <p className="italic">
+            mais Heroku étant devenu payant cela n'est hélas plus accessible
+          </p>
+        </div>
+        <div className="quote3">
+          <a
+            target="blank"
+            href="https://github.com/FotieMConstant/geek-quote-api"
+          >
+            Source
+          </a>
         </div>
       </div>
 
