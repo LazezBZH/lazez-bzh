@@ -33,6 +33,10 @@ export default function Api() {
                 réalisation heruko avait des problèmes de déployement via
                 GitHub).
               </li>
+              <li>
+                Le déploiement en version gratuite sur Heruko n'est hélas plus
+                proposé depuis novembre 2022.
+              </li>
             </ul>
           </div>
           <div className="apiP">
@@ -123,12 +127,7 @@ export default function Api() {
               <tr>
                 <td className="appliR">Phrases cultes</td>
                 <td className="deploy">
-                  <a
-                    href="https://phrases-cultes.herokuapp.com/"
-                    target="blank"
-                  >
-                    &#x23F3;
-                  </a>
+                  <i>plus déployée</i>
                 </td>
                 <td className="git">
                   <a
