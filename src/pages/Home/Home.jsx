@@ -2,6 +2,7 @@ import Banner from "../../components/Banner/Banner";
 import Footer from "../../components/Footer/Footer";
 import Links from "../../components/Links/Links";
 import Technos from "../../components/Technos/Technos";
+import Password from "../../components/Products/Password";
 import Hrnet from "../../components/Products/Hrnet";
 import ReactP from "../../components/Products/ReactP";
 import Learn from "../../components/Products/Learn";
@@ -54,6 +55,11 @@ export default function Home() {
         <div className="ancres">
           <p className="matières">Quelques exemples:</p>
           <div className="ancre">
+            <a href="#password">
+              Générateur de mot de passe (js/react/npm/pwa)
+            </a>
+          </div>
+          <div className="ancre">
             <a href="#hrnet">1 sites/2 versions (React et Vue)</a>
           </div>
           <div className="ancre">
@@ -72,6 +78,7 @@ export default function Home() {
       </div>
 
       <div className="all-projects">
+        <Password />
         <Hrnet />
         <ReactP />
         <Api />

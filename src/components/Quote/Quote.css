@@ -1,8 +1,8 @@
 .quote-all {
-  width: 90%;
+  width: 80%;
   margin: 2rem auto;
   border: 2px solid orange;
-  box-shadow: 10px 5px 5px orange;
+  box-shadow: 5px 5px 5px orange;
   padding: 1rem;
   background-color: rgba(228, 201, 152, 0.242);
   display: flex;
@@ -17,50 +17,21 @@
 
 /*quote*/
 .quote {
-  width: 95%;
-  display: flex;
-  justify-content: space-between;
+  width: 85%;
+  padding: 1rem;
   margin: auto;
+  text-align: center;
   background-color: rgba(0, 183, 255, 0.18);
   box-shadow: 3px 3px rgba(0, 183, 255, 0.18), -1em 0 0.4em rgb(0, 183, 255);
-}
-.quote h3 {
-  color: rgb(0, 106, 148);
-}
-.quote1 {
-  width: 30%;
 }
 
 .italic {
   color: rgb(0, 183, 255);
   font-style: italic;
 }
-.quote2 {
-  text-align: left;
-  margin-left: 2rem;
-}
-.quote3 {
-  width: 15%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-}
-.quote a {
-  color: orange;
-  font-weight: bold;
-}
 
 /*date*/
-.date {
-  width: 98%;
-  margin-top: 1rem;
-  text-align: right;
-  color: rgb(0, 106, 148);
-  display: flex;
-  justify-content: end;
-  flex-wrap: wrap;
-}
+
 .underline {
   text-decoration: underline;
   text-underline-position: under;

@@ -63,56 +63,16 @@ export default function Quote() {
 
   return (
     <div className="quote-all">
-      {/* <div className="quote">
-        <h3 className="quote1">Citation Geek Random</h3>
-        <div className="quote2">
-          <p>{quote.quote}</p>
-          <p className="italic">Auteur: {quote.author}</p>
-        </div>
-        <div className="quote3">
-          <a
-            target="blank"
-            href="https://github.com/FotieMConstant/geek-quote-api"
-          >
-            Source
-          </a>
-
-          <button onClick={handleClick}>Une autre?</button>
-        </div>
-      </div> */}
-      <div className="quote">
-        <h3 className="quote1">
-          Ici il y avait une jolie citation Geek Random
-        </h3>
-        <div className="quote2">
-          <p className="italic">
-            mais Heroku étant devenu payant cela n'est hélas plus accessible
-          </p>
-        </div>
-        <div className="quote3">
-          <a
-            target="blank"
-            href="https://github.com/FotieMConstant/geek-quote-api"
-          >
-            Source
-          </a>
-        </div>
+      <div className="quote ">
+        Nous sommes le <span className="underline">{date}</span> et, en France
+        métropolitaine, il est{" "}
+        <span className="surligne">
+          {hour} h {minute}
+        </span>
+        .
       </div>
 
-      <div className="date">
-        <div>
-          {" "}
-          Nous sommes le <span className="underline">{date}</span> et,{" "}
-        </div>
-        <div>
-          {" "}
-          en France métropolitaine, il est{" "}
-          <span className="surligne">
-            {hour} h {minute}
-          </span>
-          .
-        </div>
-      </div>
+      <div className=""></div>
     </div>
   );
 }

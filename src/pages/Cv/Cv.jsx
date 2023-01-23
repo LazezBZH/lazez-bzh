@@ -59,7 +59,7 @@
 import Banner from "../../components/Banner/Banner";
 import TypeWriterEffect from "react-typewriter-effect";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import cv from "../../assets/cvnov22.png";
+import cv from "../../assets/cvjanv23.png";
 import "./Cv.css";
 
 export default function Cv() {
@@ -77,10 +77,10 @@ export default function Cv() {
                   fontWeight: "bolder",
                   fontSize: "2rem",
                 }}
-                startDelay={50}
+                startDelay={0}
                 cursorColor="Cyan"
                 text="Bénédicte HÉRAULT"
-                typeSpeed={150}
+                typeSpeed={50}
                 hideCursorAfterText="true"
               />
             </div>
@@ -99,9 +99,9 @@ export default function Cv() {
       <button className="download">
         <a
           target="blank"
-          href="https://drive.google.com/file/d/1cYkOhDlS61_AseNfbsWO3ddUDt4Zb6xs/view?usp=sharing"
+          href="https://drive.google.com/file/d/1v3c3tPqDAYTtR4qpq1k-7_NcxBlG5Yri/view?usp=sharing"
         >
-          Téléchargez PDF
+          Téléchargez l'intégralité en PDF
         </a>
       </button>
       <div className=" back-cv">

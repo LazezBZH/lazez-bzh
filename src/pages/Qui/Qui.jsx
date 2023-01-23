@@ -27,10 +27,10 @@ export default function Qui() {
               fontWeight: "bolder",
               fontSize: "5rem",
             }}
-            startDelay={50}
+            startDelay={0}
             cursorColor="SandyBrown"
             text="WHO?.."
-            typeSpeed={200}
+            typeSpeed={100}
             hideCursorAfterText="true"
           />
         </div>

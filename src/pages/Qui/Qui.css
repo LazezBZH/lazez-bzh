@@ -96,8 +96,8 @@
   background-size: 50%;
   -webkit-animation: invisibleq 5ms linear forwards;
   animation: invisibleq 5ms linear forwards;
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 }
 .span-qui {
   color: rgb(3, 194, 194);
