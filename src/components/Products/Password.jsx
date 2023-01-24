@@ -1,4 +1,8 @@
 import password from "../../assets/password.gif";
+import logo from "../../assets/logoReact.png";
+import js from "../../assets/js.png";
+import npm from "../../assets/npm.png";
+import pwa from "../../assets/pwa.png";
 
 import "./Password.css";
 
@@ -76,6 +80,20 @@ export default function Password() {
       </div>
 
       <div className="password-links">
+        <div className="password-img2">
+          <div>
+            <img className="password-logo" src={js} alt="" />
+          </div>
+          <div>
+            <img className="password-logo2" src={pwa} alt="" />
+          </div>
+          <div>
+            <img className="password-logo" src={logo} alt="" />
+          </div>
+          <div>
+            <img className="password-logo" src={npm} alt="" />
+          </div>
+        </div>
         <div className="tableR">
           <table>
             <caption className="table-title">En découvrir plus</caption>
