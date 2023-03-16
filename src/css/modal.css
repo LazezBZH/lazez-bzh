@@ -1,0 +1,120 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  padding-top: 50px;
+  left: 5%;
+  top: 5%;
+  width: 90%;
+  height: 90%;
+  overflow: auto;
+  background-color: var(--primaireMoy);
+  border-radius: 10px;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: var(--primaire);
+  margin: auto;
+  padding: 0;
+  width: 96%;
+  height: 96%;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: var(--tertiaire);
+  position: absolute;
+  top: 5.5%;
+  right: 3%;
+  font-size: 3rem;
+  font-weight: bold;
+  z-index: 99;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--primaire);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.nxt {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: var(--tertiaire);
+  font-weight: bold;
+  font-size: 3rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.nxt {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.nxt:hover {
+  background-color: var(--tertiaire);
+  color: var(--primaire);
+}
+
+.mySlides img {
+  width: 35%;
+  border-radius: 50px;
+}
+.mySlides h4 {
+  font-size: 3rem;
+  color: var(--tertiaire);
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.repo {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+  padding-top: 2%;
+}
+.repo div {
+  flex: 0;
+  display: flex;
+  gap: 10px;
+}
+.repo img {
+  width: 3rem;
+}
+.repo a {
+  width: 50%;
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="utf-8" />
+   
+          <link rel="icon" href="/public/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Portfolio Bénédicte Hérault" />
+    <link rel="apple-touch-icon" href="/public/logo192.png" />
+
+    
+
+    <link rel="manifest" href="/public/manifest.json" />
+    <title>Lazez BZH</title>
+    
+    <link rel="stylesheet" href="src/css/index.css"/>
+    
+<link rel="stylesheet" href="src/css/modal.css"/>
+<link rel="stylesheet" href="src/css/resp.css"/>
+
+<!-- <meta http-equiv="Refresh" content="0; url=//https://lazezbzh.fr/" /> -->
+
+  
+   
+  </head>
+
+  <body class="real-body">
+    <div id="transition_page" class=" transition active"><div><img src="src/assets/canard.svg" alt=""></div></div>
+    <header class="header">
+      <div class="header-title">
+        <h1>Bénédicte HÉRAULT</h1>     
+        <h2>Développeuse Front-End</h2>
+      </div>
+      <nav>
+        <a href="/index.html" class="navIndex">Qui suis-je?</a>
+        <a href="/realisations.html" class="navRea">Réalisations</a>
+        <a href="/parcours.html" class="navParc">Parcours</a>
+        <a href="/contact.html" class="navCont">Contact</a>
+      </nav>
+    </header>
+
+    <main class="main" >
+      <a class="previous" href="/index.html"></a>
+      <a href="/parcours.html" class="next"></a>
+
+      <section class="section section-2" >
+        <div class="content content-2">
+          <h3>Quelques réalisations:</h3>
+          <p>cliquez sur le texte pour agrandir et obtenir les liens</p>
+          <div class="projects" id="projects">
+            <figure >
+              <img src="src/assets/ActivityBoard.gif" alt=""> 
+              <figcaption class="project" onclick="openModal();currentSlide(1)">Activities Board</figcaption> 
+            </figure>                  
+            <figure >
+              <img src="src/assets/templates.gif" alt="">
+              <figcaption class="project" onclick="openModal();currentSlide(2)">Templates de sites</figcaption>
+            </figure>
+            <figure >
+              <img src="src/assets/password.gif" alt="">
+              <figcaption class="project" onclick="openModal();currentSlide(3)">Variation sur un thème</figcaption>
+            </figure>
+            <figure >
+              <img src="src/assets/Kanban.gif" alt="">
+              <figcaption class="project" onclick="openModal();currentSlide(4)">Kanban</figcaption>
+            </figure>
+            <figure>
+              <img src="src/assets/hrNet.gif" alt="">
+              <figcaption class="project" onclick="openModal();currentSlide(5)">Un projet, deux versions</figcaption>
+            </figure>
+            <figure >
+              <img src="src/assets/API.gif" alt="">
+              <figcaption class="project" onclick="openModal();currentSlide(6)">Les API rest</figcaption>
+            </figure>
+            <figure >
+              <img src="src/assets/agile.gif" alt="">
+              <figcaption class="project" onclick="openModal();currentSlide(7)">Gestion de projet en mode Agile</figcaption>
+            </figure>
+            <figure>
+              <img src="src/assets/marie.gif" alt="">
+              <figcaption class="project" onclick="openModal();currentSlide(8)">Site vitrine d'une amie sophrologue</figcaption>
+            </figure>
+          </div>
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+              <div class="mySlides">
+                <h4>Activities Board</h4>
+                <img src="src/assets/ActivityBoard.gif" >
+                <div class="repo" id="repo">
+                  <div>
+                    <a href="https://github.com/LazezBZH/activities-board" target="_blank">
+                      <img src="src/assets/githubBis.svg" alt=""> Repository
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://activities-board.netlify.app/" target="_blank">
+                      <img src="src/assets/linkedinBis.svg" alt=""> Déploiement
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides">
+                <h4>Templates de sites</h4>
+                <img src="src/assets/templates.gif" >
+                <div class="repo" id="repo">
+                  <div>
+                    <a href="https://github.com/LazezBZH/simple-template" target="_blank">
+                      <img src="src/assets/githubBis.svg" alt=""> Repository
+                    </a>
+                  </div>
+                  <div> 
+                    <a href="https://simple-template-website.netlify.app/" target="_blank">
+                      <img src="src/assets/linkedinBis.svg" alt=""> Déploiement
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides">
+                <h4>Variation sur un thème</h4>
+                <img src="src/assets/password.gif" >
+                <div class="repo" id="repo">
+                  <div>
+                    <a href="https://github.com/LazezBZH/passwords" target="_blank">
+                      <img src="src/assets/githubBis.svg" alt=""> Repo1
+                    </a> 
+                    <a href="https://github.com/LazezBZH/passwords-component" target="_blank">Repo2</a>
+                  </div>
+                  <div> 
+                    <a href="https://lazezbzh.github.io/passwords/" target="_blank">
+                      <img src="src/assets/linkedinBis.svg" alt=""> Dépl1
+                    </a> 
+                    <a href="https://password-generator-by-lazez.netlify.app/" target="_blank">Dépl2</a>
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides">
+                <h4>Kanban</h4>
+                <img src="src/assets/Kanban.gif" >
+                <div class="repo" id="repo">
+                  <div>
+                    <a href="https://github.com/LazezBZH/kanban-emploi" target="_blank">
+                      <img src="src/assets/githubBis.svg" alt=""> Repository
+                    </a>
+                  </div>
+                  <div> 
+                    <a href="https://kanban-emploi.netlify.app/" target="_blank">
+                      <img src="src/assets/linkedinBis.svg" alt=""> Déploiement
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides">
+                <h4>Un projet, deux versions</h4>
+                <img src="src/assets/hrNet.gif" >
+                <div class="repo" id="repo">
+                  <div>
+                    <a href="https://github.com/LazezBZH/BenedicteHERAULT_14_23112021" target="_blank">
+                      <img src="src/assets/githubBis.svg" alt=""> Repo1
+                    </a> 
+                    <a href="https://github.com/LazezBZH/p14-vue" target="_blank">Repo2</a>
+                  </div>
+                  <div> 
+                    <a href="https://hrnet-p14-dfe-oc-herault-benedicte.netlify.app/" target="_blank">
+                      <img src="src/assets/linkedinBis.svg" alt=""> Dépl1
+                    </a> 
+                    <a href="https://p14-vue.netlify.app/" target="_blank">Dépl2</a>
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides">
+                <h4>Les API rest</h4>
+                <img src="src/assets/API.gif" >
+                <div class="repo" id="repo">
+                  <div>
+                    <a href="https://github.com/LazezBZH/rest-countries-api" target="_blank">
+                      <img src="src/assets/githubBis.svg" alt=""> Repo1
+                    </a>
+                    <a href="https://github.com/LazezBZH/SpaceX" target="_blank">Repo2</a>
+                  </div>
+                  <div> 
+                    <a href="https://rest-countries-api-lazez.netlify.app/" target="_blank">
+                      <img src="src/assets/linkedinBis.svg" alt=""> Dépl1
+                    </a> 
+                    <a href="https://space-x-lazez.netlify.app/" target="_blank">Dépl2</a>
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides">
+                <h4>Gestion de projet en mode Agile</h4>
+                <img src="src/assets/agile.gif" >
+                <div class="repo" id="repo">
+                  <div>
+                    <a href="https://github.com/LazezBZH/BenedicteHERAULT_10_23082021/blob/main/README.md" target="_blank">
+                      <img src="src/assets/githubBis.svg" alt=""> Repository
+                    </a>
+                  </div>
+                </div>
+              </div> 
+              <div class="mySlides">
+                <h4>Site vitrine d'une amie sophrologue</h4>
+                <img src="src/assets/marie.gif" >
+                <div class="repo" id="repo">
+                  <div>
+                    <a href="https://github.com/LazezBZH/Site-Marie" target="_blank">
+                      <img src="src/assets/githubBis.svg" alt=""> Repository
+                    </a>
+                  </div>
+                  <div> 
+                    <a href="https://www.marieaballea.fr/" target="_blank">
+                      <img src="src/assets/linkedinBis.svg" alt=""> Déploiement
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="nxt" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/js/modal.js"></script> 
+    <script src="src/js/index.js"></script> 
+
+  </body>
+</html>

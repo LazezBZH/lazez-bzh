@@ -1,0 +1,158 @@
+@media screen and (max-width: 1237px) {
+  .content-2 figure {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1114px) {
+  .content-2 figure {
+    width: 45%;
+  }
+  .mySlides img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .contact figure {
+    width: 10vh;
+  }
+  .contact figcaption {
+    height: auto;
+  }
+  .home-body,
+  .parc-body,
+  .cont-body {
+    min-height: max(850px, 100vh);
+  }
+  .real-body {
+    min-height: max(2115px, 100vh);
+  }
+}
+@media screen and (max-width: 800px) {
+  .previous,
+  .next {
+    display: none;
+  }
+}
+@media screen and (max-width: 742px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-2 figure {
+    width: 80%;
+  }
+  .mySlides img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 710px) {
+  .content-4 {
+    height: 500px;
+  }
+  .content-4 h3 {
+    font-size: 2rem;
+  }
+  .contact figure {
+    width: 8vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content-3 {
+    padding: 1rem;
+  }
+  .content-1 h3 {
+    font-size: 2.5rem;
+  }
+  .techno {
+    font-size: 1rem;
+  }
+  .techno img {
+    height: 2rem;
+  }
+  .parcours {
+    flex-direction: column;
+  }
+  .parcours h4 {
+    width: 90%;
+  }
+  .header {
+    height: var(--size-header-resp);
+  }
+  .header-title {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem 0.7rem 0.5rem;
+  }
+  .transition div img {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 601px) {
+  .repo {
+    color: red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .repo div {
+    margin-bottom: 1rem;
+  }
+  .repo img {
+    width: 3rem;
+  }
+  .mySlides img {
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 505px) {
+  nav a {
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem 0.7rem 0.5rem;
+  }
+}
+@media screen and (max-width: 501px) {
+  .prev:hover,
+  .nxt:hover {
+    background-color: transparent;
+    color: var(--secondaire);
+  }
+  .nxt,
+  .prev {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .contact figure {
+    width: 5vh;
+  }
+  .contact figcaption {
+    font-size: 1rem;
+  }
+  .content-4 {
+    padding: 1rem;
+    width: 80%;
+  }
+  .content-4 h3 {
+    font-size: 1.5rem;
+  }
+  nav a {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem 0.7rem 0.5rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .header-title h1,
+  .header-title h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 373px) {
+  .home-body {
+    min-height: max(900px, 100vh);
+  }
+}
