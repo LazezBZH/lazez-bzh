@@ -148,7 +148,8 @@
 @media screen and (max-width: 390px) {
   .header-title h1,
   .header-title h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
   }
 }
 @media screen and (max-width: 373px) {
