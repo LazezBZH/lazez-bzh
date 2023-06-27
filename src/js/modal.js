@@ -32,3 +32,44 @@ function showSlides(n) {
 
   slides[slideIndex - 1].style.display = "flex";
 }
+
+const prev = document.querySelector(".prev");
+const nxt = document.querySelector(".nxt");
+const close = document.querySelector(".close");
+
+close.addEventListener("click", closeModal);
+prev.addEventListener("click", plusSlides(-1));
+nxt.addEventListener("click", plusSlides(1));
+document.addEventListener("keydown", (e) => {
+  if (e.keyCode == 39) {
+    plusSlides(1);
+  }
+});
+document.addEventListener("keydown", (e) => {
+  if (e.keyCode == 37) {
+    plusSlides(-1);
+  }
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.keyCode == 27) {
+    closeModal();
+  }
+});
+close.addEventListener("keydown", (e) => {
+  if (e.keyCode == 13) {
+    closeModal();
+  }
+});
+
+const openModalBtn = document.querySelectorAll(".project-btn");
+
+// openModalBtn.addEventListener("click", openModal)
+
+openModalBtn.forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    let index = btn.dataset.id;
+    openModal();
+    currentSlide(index);
+  });
+});

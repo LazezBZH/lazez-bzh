@@ -49,8 +49,8 @@
     </header>
 
     <main class="main" >
-      <a class="previous" href="/index.html"></a>
-      <a href="/parcours.html" class="next"></a>
+      <a aria-label="revenir à la page d'accueil"  class="previous" href="/index.html"></a>
+      <a aria-label="voir mon parcours" href="/parcours.html" class="next"></a>
 
       <section class="section section-2" >
         <div class="content content-2">
@@ -59,41 +59,41 @@
           <div class="projects" id="projects">
             <figure >
               <img src="src/assets/ActivityBoard.gif" alt=""> 
-              <figcaption class="project" onclick="openModal();currentSlide(1)">Activities Board</figcaption> 
+              <figcaption  class="project" ><button class="project-btn"  data-id="1" >Activities Board</button></figcaption> 
             </figure>                  
             <figure >
               <img src="src/assets/templates.gif" alt="">
-              <figcaption class="project" onclick="openModal();currentSlide(2)">Templates de sites</figcaption>
+              <figcaption class="project" ><button class="project-btn" data-id="2">Templates de sites</button></figcaption>
             </figure>
             <figure >
               <img src="src/assets/password.gif" alt="">
-              <figcaption class="project" onclick="openModal();currentSlide(3)">Variation sur un thème</figcaption>
+              <figcaption class="project" ><button class="project-btn" data-id="3" >Variation sur un thème</button></figcaption>
             </figure>
             <figure >
               <img src="src/assets/Kanban.gif" alt="">
-              <figcaption class="project" onclick="openModal();currentSlide(4)">Kanban</figcaption>
+              <figcaption class="project" ><button class="project-btn" data-id="4">Kanban</button></figcaption>
             </figure>
             <figure>
               <img src="src/assets/hrNet.gif" alt="">
-              <figcaption class="project" onclick="openModal();currentSlide(5)">Un projet, deux versions</figcaption>
+              <figcaption class="project"><button class="project-btn" data-id="5" >Un projet, deux versions</button></figcaption>
             </figure>
             <figure >
               <img src="src/assets/API.gif" alt="">
-              <figcaption class="project" onclick="openModal();currentSlide(6)">Les API rest</figcaption>
+              <figcaption class="project" ><button class="project-btn" data-id="6" >Les API rest</button></figcaption>
             </figure>
             <figure >
               <img src="src/assets/agile.gif" alt="">
-              <figcaption class="project" onclick="openModal();currentSlide(7)">Gestion de projet en mode Agile</figcaption>
+              <figcaption class="project" ><button class="project-btn" data-id="7" >Gestion de projet en mode Agile</button></figcaption>
             </figure>
             <figure>
               <img src="src/assets/marie.gif" alt="">
-              <figcaption class="project" onclick="openModal();currentSlide(8)">Site vitrine d'une amie sophrologue</figcaption>
+              <figcaption class="project"> <button class="project-btn" data-id="8" >Site vitrine d'une amie sophrologue</button></figcaption>
             </figure>
           </div>
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div id="myModal"  class="modal" >
+            <span  class="close cursor" >&times;</span>
             <div class="modal-content">
-              <div class="mySlides">
+              <div  class="mySlides">
                 <h4>Activities Board</h4>
                 <img src="src/assets/ActivityBoard.gif" >
                 <div class="repo" id="repo">
@@ -223,8 +223,8 @@
                 </div>
               </div>
               
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="nxt" onclick="plusSlides(1)">&#10095;</a>
+              <button class="prev" >&#10094;</button>
+              <button  class="nxt">&#10095;</button>
             
             </div>
           </div>
