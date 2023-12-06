@@ -9,8 +9,11 @@ function closeModal() {
 let slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides((slideIndex += n));
+function plusSlides() {
+  showSlides(slideIndex++);
+}
+function minusSlides() {
+  showSlides(slideIndex--);
 }
 
 function currentSlide(n) {
@@ -38,16 +41,16 @@ const nxt = document.querySelector(".nxt");
 const close = document.querySelector(".close");
 
 close.addEventListener("click", closeModal);
-prev.addEventListener("click", plusSlides(-1));
-nxt.addEventListener("click", plusSlides(1));
+prev.addEventListener("click", minusSlides);
+nxt.addEventListener("click", plusSlides);
 document.addEventListener("keydown", (e) => {
   if (e.keyCode == 39) {
-    plusSlides(1);
+    plusSlides();
   }
 });
 document.addEventListener("keydown", (e) => {
   if (e.keyCode == 37) {
-    plusSlides(-1);
+    minusSlides();
   }
 });
 
