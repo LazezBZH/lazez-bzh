@@ -10,9 +10,15 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides() {
+  if (slideIndex == 8) {
+    slideIndex = 0;
+  }
   showSlides(slideIndex++);
 }
 function minusSlides() {
+  if (slideIndex == 1) {
+    slideIndex = 9;
+  }
   showSlides(slideIndex--);
 }
 
@@ -23,16 +29,10 @@ function currentSlide(n) {
 function showSlides(n) {
   let slides = document.getElementsByClassName("mySlides");
 
-  if (n > 8) {
-    slideIndex = 1;
-  }
-  if (n == 0) {
-    slideIndex = 8;
-  }
   for (let i = 0; i < 8; i++) {
     slides[i].style.display = "none";
   }
-
+  console.log(slideIndex);
   slides[slideIndex - 1].style.display = "flex";
 }
 
