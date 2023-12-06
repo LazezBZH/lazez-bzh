@@ -27,31 +27,35 @@ const navRea = document.querySelector(".navRea");
 const navParc = document.querySelector(".navParc");
 const navCont = document.querySelector(".navCont");
 
+window.addEventListener("load", changeNav);
 // console.log(url);
-if (path == "/" || path == "/index.html") {
-  navIndex.style.backgroundColor = "var(--secondaireLow)";
-  navRea.style.backgroundColor = "transparent";
-  navParc.style.backgroundColor = "transparent";
-  navCont.style.backgroundColor = "transparent";
-}
 
-if (path == "/realisations.html") {
-  navIndex.style.backgroundColor = "transparent";
-  navRea.style.backgroundColor = "var(--secondaireLow)";
-  navParc.style.backgroundColor = "transparent";
-  navCont.style.backgroundColor = "transparent";
-}
+function changeNav() {
+  if (path == "/" || path == "/index.html") {
+    navIndex.style.backgroundColor = "var(--secondaireLow)";
+    navRea.style.backgroundColor = "transparent";
+    navParc.style.backgroundColor = "transparent";
+    navCont.style.backgroundColor = "transparent";
+  }
 
-if (path == "/parcours.html") {
-  navIndex.style.backgroundColor = "transparent";
-  navRea.style.backgroundColor = "transparent";
-  navParc.style.backgroundColor = "var(--secondaireLow)";
-  navCont.style.backgroundColor = "transparent";
-}
+  if (path == "/realisations.html") {
+    navIndex.style.backgroundColor = "transparent";
+    navRea.style.backgroundColor = "var(--secondaireLow)";
+    navParc.style.backgroundColor = "transparent";
+    navCont.style.backgroundColor = "transparent";
+  }
 
-if (path == "/contact.html") {
-  navIndex.style.backgroundColor = "transparent";
-  navRea.style.backgroundColor = "transparent";
-  navParc.style.backgroundColor = "transparent";
-  navCont.style.backgroundColor = "var(--secondaireLow)";
+  if (path == "/parcours.html") {
+    navIndex.style.backgroundColor = "transparent";
+    navRea.style.backgroundColor = "transparent";
+    navParc.style.backgroundColor = "var(--secondaireLow)";
+    navCont.style.backgroundColor = "transparent";
+  }
+
+  if (path == "/contact.html") {
+    navIndex.style.backgroundColor = "transparent";
+    navRea.style.backgroundColor = "transparent";
+    navParc.style.backgroundColor = "transparent";
+    navCont.style.backgroundColor = "var(--secondaireLow)";
+  }
 }
